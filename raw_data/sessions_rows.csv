@@ -1,0 +1,433 @@
+id,participant_id,key,session_order,task_content,task_type,task_index,started_at,completed_at,current_turn,current_response,current_cycle
+0031c869-7a2f-444a-9e19-05f9a0361d91,97c14ba1-c814-4934-bf1d-21ff0650257e,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:37:03.446+00,,0,5,4
+019f91bb-f053-4874-89b1-5941e1f945a8,f648a570-513c-4482-9932-71c78717586c,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:33:17.356+00,,0,5,4
+01ecd8dc-b35e-4b6c-b36a-502b251a578e,5cc0e14d-5fe2-4447-b4ca-5994e3e10831,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 18:45:49.784+00,,0,5,4
+02254b28-d04a-46af-92dd-a44e2f61748e,7b37ae66-f309-40f3-876b-534190445346,normative,1,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 17:35:21.776+00,,0,5,4
+0297be0e-b893-434a-9a6d-c51fec190545,ae947f61-8ce5-456c-9663-5e29f5248f4b,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 17:39:05.979+00,,0,5,4
+02a0ff6b-1c28-4769-83bd-2997e8beb08f,53a97c91-f20c-45e2-bb24-3de3bf2f48a9,normative,2,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 15:03:47.835+00,,0,5,4
+04700d9b-4d15-4fad-b298-bf5174be7b1c,fdaeb938-314c-4e49-a47d-19672e156db3,test,0,Turning on cameras during online meetings is necessary.,test,,,,0,0,0
+04a5e890-8f9a-4e95-b2a3-a5fc11915428,b8fcffcb-d710-49d0-9416-bcdbb05a9fb3,test,0,Turning on cameras during online meetings is necessary.,test,,,,0,0,0
+04e57ae2-1635-42b5-a4f2-e6a8e961ae7c,c724fed7-5bb1-4e16-972d-c7dbac7ba34e,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 15:07:44.165+00,,0,5,4
+067f38cc-e8b9-490c-8aab-d104089aeb4f,8f9ebfca-c50d-4ed1-8314-27f04276794e,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 18:53:21.15+00,,0,5,4
+06dc8405-d415-45fc-9e9d-6b9feee1b71c,134c2569-bfe7-414e-86a0-d3b3f948f5e9,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 19:13:50.939+00,,0,5,4
+0741f27b-4a7d-4a99-9cfe-6e7a895d9515,4fbd634d-a658-43dd-badb-bc2fea80cafd,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 18:06:49.076+00,,0,5,4
+07507751-d350-4da0-8af4-340b63357663,5390b6eb-1261-4376-8663-e7c71c700f28,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 17:31:01.489+00,,0,5,4
+075c8b16-cb61-4cfe-b726-e54d5f59b94a,93c35761-c7dd-49aa-94f9-6420fc5f0b78,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:25:06.819+00,,0,5,4
+07bba21e-3883-480c-b6d4-034a55b35c81,9b21942f-17c3-4406-b78e-79d5b9a591bf,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 17:59:58.959+00,,0,5,4
+07e06e42-404e-48ad-a653-f32d62c40102,a2cfe6e1-7f54-4be5-96a4-40997af9bf83,test,0,Turning on cameras during online meetings is necessary.,test,,,,0,0,0
+0811a7f9-90a4-4c00-8d19-48b75472cbac,2aba76f6-a5c0-48b6-8d2e-f2864685853f,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:33:25.926+00,,0,2,2
+086cdff8-bf47-4230-bc2c-f3efdd755fef,32b70b37-a395-44f7-af56-31268be200c4,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:46:36.239+00,,0,5,4
+089280ac-5e35-41f9-8a3d-5ae215545333,95561580-6b5f-4a9c-af7c-d2d85aa29a14,normative,2,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 17:56:03.975+00,,0,5,4
+093a0516-74ed-4e3f-9ee1-d66b4c1238c5,95561580-6b5f-4a9c-af7c-d2d85aa29a14,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:34:10.381+00,,0,5,4
+097e97f9-7e6e-471f-ac9b-7fc3f12e87ee,bb3bf185-23ab-460f-8e39-e7bcd54eb3f9,normative,1,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 17:27:19.725+00,,0,5,4
+0ad517cc-0eb7-462c-958f-182aeb8adde8,43767e66-41d2-4d39-ab15-55bb730cb0ed,normative,1,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 17:34:07.545+00,,0,5,4
+0af211e1-230a-4189-b309-639e8f344f3f,93ad0c45-b342-4f90-8198-b588bced4349,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 18:00:13.589+00,,0,5,4
+0b013fda-064b-48d4-90a4-37d9f2a11c79,c1490d5a-63eb-43c8-8b70-aac901fc51d7,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:55:02.196+00,,0,5,4
+0b8116a6-b667-44d7-ae7d-6f80475153f1,12977f58-b35a-48bb-ba9b-643cc0379c18,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 18:22:02.237+00,,0,5,4
+0c8400fe-6af2-4c7c-a95d-e6762c0c5be1,d385aeea-2dd2-4f42-b57e-78a9b42f0382,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:25:10.563+00,,0,5,4
+0cb7537d-ee5a-43ae-a127-e07a3b4a85be,dc4e73f1-4cf5-47ea-a5b9-d58eaaf436e3,normative,1,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 17:35:30.328+00,,0,5,4
+0cd82933-d1d1-4797-985f-d32501cfa021,77c2f6c1-59bb-4529-b4bd-95947c8939bb,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:26:19.969+00,,0,5,4
+0e4813bc-16b8-414d-b761-73acb928df59,929a3771-f5d2-4878-8a0f-a54e9ddd35f3,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 17:47:42.276+00,,0,5,4
+0f1421d3-2b62-49ca-8e01-4497c2e56dca,918d8839-cfa1-43d5-87d8-24f1600592b6,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:22:18.911+00,,0,5,4
+0f9bb217-9bb0-4d75-a4c1-338c5c0bcb00,7bbeecf7-33a6-4f95-b1f7-1b17b79f0b72,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:26:35.695+00,,0,5,4
+0f9f99ca-af2a-48b0-ab57-97cfa153d346,828a3c44-961f-434e-948b-36a0dfc6cfe7,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 15:33:00.029+00,,0,5,4
+0fb70f62-dde1-4002-8576-04049a34f38d,5d1b61d5-a2f2-44bd-a128-edf1f61bd715,normative,2,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 17:50:44.237+00,,0,5,4
+0fc93975-171c-4d1a-8c36-efd881cdebd3,a06d8bf2-816c-48a8-b4fe-03c79b290a30,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 17:32:35.045+00,,0,5,4
+0fe71412-9d31-47be-8fa8-50bc8adc6e26,929a3771-f5d2-4878-8a0f-a54e9ddd35f3,normative,1,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 17:37:01.338+00,,0,5,4
+110855f5-fadd-4e71-8d0e-b9e8effc7d55,7122b132-a5ee-45ff-8c83-464c09feedb1,test,0,Turning on cameras during online meetings is necessary.,test,,,,0,0,0
+11b2fa0a-b1e9-4fd2-97d2-74a691926a4b,b8fcffcb-d710-49d0-9416-bcdbb05a9fb3,normative,1,Online meetings are more efficient than offline meetings.,normative,0,,,0,5,4
+1215a2e9-1098-4635-a5f1-9d5095757c52,ae947f61-8ce5-456c-9663-5e29f5248f4b,normative,2,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 17:51:09.779+00,,0,5,4
+12bda242-9b11-416c-9f86-c2aa22018fb5,511ad65b-efbc-4180-beae-8546a05a4b4e,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 18:09:39.253+00,,0,2,1
+15608eb1-3bc5-4d5f-a9e7-cba28718c9d3,21b14e1e-73cd-4390-af56-e404b575742d,normative,2,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 15:09:09.262+00,,0,5,4
+1596bd88-8edf-4758-b81b-1c8cf405ccd3,0ddcc4f5-84cf-4232-91c2-55d084eda6e9,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:22:47.852+00,,0,5,4
+16062f2e-e7fa-4253-a0e1-7ba0f5683034,b2f2cdd4-44e9-4283-b632-ff9f49664bf0,normative,1,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 17:43:17.768+00,,0,3,2
+16947df8-7b29-4365-a296-2680ff64f645,4a3c5081-d999-41a2-ac0f-c3be5c903638,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:53:38.007+00,,0,5,4
+1771eabe-3c32-4564-b635-bf2f639a4b79,cac93c83-183d-4a39-91da-6e4e735430b2,normative,1,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 17:48:46.471+00,,0,5,4
+17ffcefe-a931-4f47-b4e2-93610f7ccd7a,4225fb9a-e135-4365-b761-b672e40539e1,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 17:47:02.853+00,,0,5,4
+18fac2f9-159d-4daf-a82c-fc293cbb3346,6e51d200-d884-4119-8396-68494a7ddf3f,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:27:45.646+00,,0,5,4
+1a23c0a1-e0cc-424f-8966-d5f264d40dc2,a06d8bf2-816c-48a8-b4fe-03c79b290a30,normative,2,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 17:43:31.944+00,,0,5,4
+1a561b12-501f-4deb-a5e4-4c5445b610b8,4ef00beb-110b-4d54-9b31-ecd001440d8a,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 15:13:04.843+00,,0,5,4
+1b5ba3f0-5ed4-49ee-b6d3-a6f6956e61b6,cda01786-9a32-4292-8f0d-2b2717a685d4,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:33:47.388+00,,0,5,4
+1b615b7b-97d1-41ad-b05b-b195f4f5c7ea,0970deef-da21-4b37-bddf-814b4a94c050,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:29:02.805+00,,0,5,4
+1bb18613-a27d-43c5-9d67-b33a9554e35c,eae01319-0414-4f8b-b125-d4487bbeda7f,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 17:49:06.069+00,,0,5,4
+1bbafeaf-0147-47b1-9fb8-ca468538194a,1956d093-8877-452f-b605-d6975cedbfa9,normative,2,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 17:56:58.252+00,,0,5,4
+1bf7f565-1bde-4d85-878b-a101584932fd,4a257cd1-8d04-4b90-a741-5745fa88f51a,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:49:08.682+00,,0,5,4
+1cb05a78-6b92-4e85-ad46-3245ce6e0dbb,cef7f64b-9637-4193-bdd6-c9943b06c56a,normative,2,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 15:07:34.574+00,,0,5,4
+1d25a616-9f8f-440d-89a3-ccdc0f98fd91,69268d3f-39bc-4530-924b-d854ebbd35e4,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:26:09.357+00,,0,5,4
+1d38e9eb-e489-452f-8f69-4f15ff6c76aa,492d89b6-d366-43d8-b3e3-3d3776f18f09,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 17:49:42.68+00,,0,5,4
+1ea86196-bb2f-4b7e-825d-721a19209ef2,32675228-78fc-4a45-91cb-6e2abd39ca5f,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 15:04:18.337+00,,0,5,4
+1f7ef292-5367-4b6a-a1b0-66ae6d4d42a1,00f48994-a285-4631-9696-edbecccdbd14,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:25:59.145+00,,0,5,4
+20211c27-8185-4f11-bc2f-90c3f5b74063,520fac17-1bfc-4435-90f5-9cde743aeceb,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:36:51.113+00,,0,5,4
+202e2028-35ad-4cfb-aeea-6d5cf133b531,74c9f1d7-3521-444e-9345-c995a33dc27a,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:54:44.196+00,,0,5,4
+215793ea-73a6-4e16-8336-b197e290e013,a070fecf-acb3-4d27-abe1-e6739b8537f3,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 17:31:20.492+00,,0,5,4
+21801b8c-1ca3-4607-b42c-9cf308871380,09b9e45a-2dad-4776-8f63-9a5ff5189f5f,normative,2,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 17:44:59.849+00,,0,5,4
+218c368e-67ea-4ef8-bf9c-3c5cd1efe137,85df1458-9ca6-4192-8023-967795afee8f,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 15:26:03.493+00,,0,5,4
+21b40d24-31b8-4846-a057-f4dfd1a1b990,32539ad3-ad81-4f6f-8e57-de29a6edae93,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:28:14.752+00,,0,5,4
+21f65425-1d53-4508-a9c0-3b9133c007c9,8f9ebfca-c50d-4ed1-8314-27f04276794e,normative,2,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 19:20:29.796+00,,0,5,4
+22990a57-270f-4e6e-8b7e-241993fd1d44,2648d04c-6732-41ba-a408-acd2a3ec32e7,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:49:58.267+00,,0,5,4
+2421bd04-54ce-4f18-8224-864e8f5eda85,84960d02-7dc3-43a3-b2e1-a945f23d90f0,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:51:19.994+00,,0,5,4
+24cec922-68f8-4c22-8f08-89d15ebbb9e3,c1490d5a-63eb-43c8-8b70-aac901fc51d7,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,,,0,0,0
+24e5d968-dfc9-4d8a-92dd-12ed4f18d742,e817f2b7-c7dd-4cff-9367-138be05feaaf,normative,2,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 17:45:19.322+00,,0,5,4
+2625a5a7-bab3-4e8b-b46a-9c9b27019bda,eae01319-0414-4f8b-b125-d4487bbeda7f,normative,1,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 17:33:52.85+00,,0,5,4
+268b8fb7-37c7-4caf-b294-ac3493415f90,38598dd5-4b64-46e0-8bda-c1a3766ec74d,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:51:19.205+00,,0,5,4
+271148bb-bb1c-4d30-b3bf-1d37669fb166,e7bee9a5-10ae-426c-8b08-27934b9281bb,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:37:33.743+00,,0,5,4
+2742579a-0853-45cf-935c-7279f4190b54,f3619e69-7a0a-47bd-a00f-daed6fc2ce92,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 15:17:25.345+00,,0,5,4
+27f188ca-d78b-4c50-957d-ab7070c22403,873bb404-396b-4a21-bd83-ad7dd1a10af9,normative,2,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 15:11:59.01+00,,0,5,4
+27ffa9ad-04d7-45eb-986a-b812b90c6994,95f30d93-4281-4988-8ba2-840acccee258,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 18:03:32.241+00,,0,5,4
+283b857c-45c6-42f8-8fa1-74eb0a0d6e65,e9735720-d13d-47c9-99f1-be9ec8418a61,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:26:42.253+00,,0,5,4
+28ddedf5-3a7b-4dae-b5f9-f3ccf1e230f1,8b2a2492-a113-4a39-ad28-01b1fc85db36,test,0,Turning on cameras during online meetings is necessary.,test,,,,0,0,0
+28ff4900-74ac-4493-b467-2d79a684a18d,cef9291c-661f-4221-a4f2-9d8bf16fb111,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 15:39:11.53+00,,0,5,4
+29c9413f-4400-446d-a899-2df6a4723538,3602b073-9f84-4bd3-a681-ea302ad6a1bf,normative,1,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 14:53:50.361+00,,0,5,4
+2a33b0c0-d7ea-4898-b67a-809692a32049,889464d6-cce9-4e14-8ceb-032f3a0abf0c,normative,2,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 17:55:25.935+00,,0,5,4
+2b6d1b38-5215-42e9-b395-356b84bfc3ae,14bf7228-fadd-491c-8cc4-c74dd4c3fba6,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:32:00.936+00,,0,5,4
+2bc16d83-b400-4579-8885-5d9e5b814b35,871d350b-2da5-4cf0-8a7a-c2dc88bb4803,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:49:32.387+00,,0,5,4
+2bec6181-6c39-4cb5-8a06-72468579e1a5,68e6e5f1-1440-4cb4-bef8-4a7009a19b5c,normative,1,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 15:15:47.206+00,,0,5,4
+2db54d0e-beef-4197-923e-1888a53fc2a0,12977f58-b35a-48bb-ba9b-643cc0379c18,normative,1,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 18:12:16.247+00,,0,5,4
+2dce79fa-be76-45ee-ba42-25740cd37297,eda76aba-529a-4bba-a2de-ccddec750d17,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 15:05:52.829+00,,0,5,4
+2ed10aad-f60d-419e-bd19-5c9c7ad04878,75db1808-af29-4ad0-bee6-29558574533b,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:23:04.683+00,,0,5,4
+2f5aba19-4f84-459b-af8a-d09b81bfd494,97c14ba1-c814-4934-bf1d-21ff0650257e,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 17:48:32.583+00,,0,5,4
+2faf9231-9388-4506-944d-8412c683e440,b784e7ca-736e-44db-a3f3-2cd2f86c2d68,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:21:26.511+00,,0,5,4
+316258be-a85a-4b01-a5c3-f929e0b1067b,9d180490-c5b0-4d42-839f-a978a6afa540,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 17:56:32.991+00,,0,5,4
+32a0c2f3-71b0-4c8b-bc46-dc7e9554ace2,5d934fc1-711c-402b-ac91-17e8e7f9b263,normative,1,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 15:00:49.382+00,,0,5,4
+32c1b926-33e6-46d2-bafe-125ba348d0c0,d385aeea-2dd2-4f42-b57e-78a9b42f0382,normative,1,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 17:32:30.918+00,,0,5,4
+3364d2fc-6f26-44cc-8fd8-fa8562063119,4f37c0a8-685a-4f8e-863c-f27a94a4236d,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 17:36:27.068+00,,0,5,4
+34096a84-a0cc-4509-ab74-177063aa7efd,5b6a5a77-da0a-4cc4-b5fe-dbf17496f7df,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:50:14.741+00,,0,5,4
+341097c7-91e3-43cd-b15d-9c0fab24db47,206652aa-efa6-46bb-8a66-bc2718a52ce6,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 18:07:22.983+00,,0,5,4
+34eb95cb-2152-4cc5-bd49-51aa4616b46f,cfff5380-ac7a-474b-b789-c9210b78dd2b,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 15:24:24.581+00,,0,5,4
+355bc312-a3a1-4caf-930d-cb684ec53481,07d88852-7da1-4eaa-9413-468d15f8dc10,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 17:31:11.989+00,,0,5,4
+36d2d294-5b65-4dac-ace6-aeafa83eeacf,492d89b6-d366-43d8-b3e3-3d3776f18f09,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:40:57.661+00,,0,5,4
+3712d1e7-dbb1-4118-a508-bb453c78905d,95561580-6b5f-4a9c-af7c-d2d85aa29a14,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 17:43:17.25+00,,0,5,4
+37166ac3-4e0f-41ab-923d-1e5dbafe26fa,f3619e69-7a0a-47bd-a00f-daed6fc2ce92,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 15:10:39.422+00,,0,5,4
+3977ce78-739b-49b3-9f1d-1774470b1dcf,b121bfe8-f8b7-48fc-af14-f99c15aedc62,normative,2,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 15:55:37.196+00,,0,5,4
+3a942b03-1005-4a14-9730-d9af74026603,7bbeecf7-33a6-4f95-b1f7-1b17b79f0b72,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 17:44:33.41+00,,0,5,4
+3b16926f-7112-482c-8efd-7ce324eb5c8a,c1490d5a-63eb-43c8-8b70-aac901fc51d7,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 18:07:39.599+00,,0,5,4
+3bd40fd5-f6ce-441c-9314-7032923c9c7b,00f48994-a285-4631-9696-edbecccdbd14,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 17:32:08.488+00,,0,5,4
+3bdabed9-372d-4ded-ad76-e8e72efcbd5c,93c35761-c7dd-49aa-94f9-6420fc5f0b78,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 17:40:56.8+00,,0,5,4
+3c9ed60c-e0c4-4cf1-b724-cbc81fd9caf1,5d934fc1-711c-402b-ac91-17e8e7f9b263,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:52:15.985+00,,0,5,4
+3da42e96-d626-4a9a-bb31-bed225fc2667,eae01319-0414-4f8b-b125-d4487bbeda7f,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:25:44.097+00,,0,5,4
+3f30aab8-f45c-4531-bea8-d3a0323ab1ff,6ae81c9a-e082-4873-ae39-7c0f54a06c50,normative,2,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 17:50:42.232+00,,0,5,4
+3ff391a0-5b26-4e7a-845a-c219ee2ff3ea,dc4e73f1-4cf5-47ea-a5b9-d58eaaf436e3,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 17:51:58.808+00,,0,5,4
+4031962c-9638-4192-86f9-47e6374f8e8b,7828fa6e-2064-4d65-a533-7b743e1b3430,normative,2,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 17:51:52.941+00,,0,5,4
+404dc80e-2e42-46c2-b081-b3720682a861,3794c56c-dffa-48cd-b926-e7a6b094f258,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 15:21:33.084+00,,0,5,4
+40566cb7-7722-4cc8-8abf-7eee1efd36a6,4d1cd95f-4f3f-40ae-ab18-7f0171c8d7f7,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:39:31.516+00,,0,5,4
+40861856-149b-4ba7-ab5e-b96e23c99b77,2648d04c-6732-41ba-a408-acd2a3ec32e7,normative,2,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 15:12:39.608+00,,0,5,4
+4168168b-e344-4de4-83c3-67023c0a9144,871d350b-2da5-4cf0-8a7a-c2dc88bb4803,normative,2,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 15:18:21.076+00,,0,5,4
+41ab3113-4fcf-4f3b-b8df-220a6c467c5c,c73badf7-3e8c-4394-bebd-062f9d8e2c65,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:56:08.215+00,,0,5,4
+422d9069-ea1a-4972-a740-30047ee4f43a,5d1b61d5-a2f2-44bd-a128-edf1f61bd715,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:22:54.766+00,,0,5,4
+4255f8f6-de67-4f2c-9022-976720465128,68e6e5f1-1440-4cb4-bef8-4a7009a19b5c,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 15:04:10.037+00,,0,5,4
+42848d08-7149-49d6-b3ae-0b9b3a612911,7bbeecf7-33a6-4f95-b1f7-1b17b79f0b72,normative,1,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 17:34:52.439+00,,0,5,4
+4286b44a-a1d8-493c-b767-0273c7282698,7828fa6e-2064-4d65-a533-7b743e1b3430,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:30:42.889+00,,0,5,4
+42e513a4-ba47-43c5-bc6b-3b7ffc8c2755,858e5a85-eb83-448d-a58c-c7974a70b99e,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:26:43.766+00,,0,5,4
+4378ef44-f31f-4c92-981e-284a69f74553,520fac17-1bfc-4435-90f5-9cde743aeceb,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 17:59:08.745+00,,0,5,4
+453fee63-ccfd-4b33-a7f6-4e31d3fa524d,dcd1ed62-d5a6-4302-a597-724e85fa3a91,normative,1,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 17:30:04.61+00,,0,5,4
+45f32605-918a-41ce-b423-6429a4ed8fc6,60e7f8e1-4778-4be6-8622-22df2d440588,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:34:10.093+00,,0,5,4
+474640e6-317c-4835-9c76-f32f9e65e436,929a3771-f5d2-4878-8a0f-a54e9ddd35f3,informative,2,Koalas belong to the bear family.,informative,1,,,0,5,4
+47a8a035-fc2a-4178-b4be-1b277fcb06b7,6e51d200-d884-4119-8396-68494a7ddf3f,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 17:32:50.732+00,,0,5,4
+47f2effe-570c-4b3c-9543-715589d734d7,c5c5f9a8-56b2-47cb-ba19-8c86e4b86f3b,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:28:18.185+00,,0,5,4
+47ff1138-0020-4028-bf5c-a04434f05f83,74c9f1d7-3521-444e-9345-c995a33dc27a,normative,1,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 15:03:19.957+00,,0,5,4
+4839fe73-16a8-4557-9f28-e9456f21578c,0970deef-da21-4b37-bddf-814b4a94c050,normative,1,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 17:35:21.226+00,,0,5,4
+48d3baac-85be-4b5c-bb91-473bfbbffba0,e817f2b7-c7dd-4cff-9367-138be05feaaf,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:29:01.274+00,,0,5,4
+49c48682-3a70-49ea-b1ea-1478edc2a8c9,2f6754e3-91f8-42c4-8052-4680060616bb,normative,1,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 18:23:31.043+00,,0,5,4
+4a043c5a-aa0b-48e6-933b-8a3e6fe2e391,95f30d93-4281-4988-8ba2-840acccee258,normative,1,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 18:08:48.283+00,,0,5,4
+4a9c2df4-ce5d-40fb-8dce-16f99c88b334,bf38b76e-3b5d-4be2-8904-0f30398f1aca,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 17:36:29.928+00,,0,5,4
+4b07cba6-166e-4034-9539-32d29d128bf5,97c14ba1-c814-4934-bf1d-21ff0650257e,normative,1,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 17:41:40.399+00,,0,5,4
+4ba10efa-d06c-482a-b1f1-5967373ec7a7,7666e3fa-ca15-41bb-98a3-e694af950070,test,0,Turning on cameras during online meetings is necessary.,test,,,,0,0,0
+4ba14f15-3cc7-41ec-b42d-7c91d62cd3dc,3602b073-9f84-4bd3-a681-ea302ad6a1bf,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:48:41.567+00,,0,5,4
+4bcb18b3-d01a-4ea2-8de5-4d5f56cd9535,889464d6-cce9-4e14-8ceb-032f3a0abf0c,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:30:51.193+00,,0,5,4
+4ca56530-1ed5-45b9-94ca-045ed0886b50,7c8f6bfd-5a39-49ef-83db-d5f330f9b53d,normative,2,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 17:54:17.484+00,,0,5,4
+4d3e9c4f-e220-41be-afae-024188ace056,b8fcffcb-d710-49d0-9416-bcdbb05a9fb3,normative,1,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 17:49:40.032+00,,0,5,4
+4d7e52ff-ed6c-4396-8928-e4a41d9af935,38598dd5-4b64-46e0-8bda-c1a3766ec74d,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 18:06:07.336+00,,0,5,4
+4dc8703b-cd3e-4cde-b31a-efe3b0b8beca,586f1871-adb3-424f-b2e5-45545395dc93,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:26:53.164+00,,0,5,4
+4dd2afac-d408-4b1d-8f44-c55a17b66dde,828a3c44-961f-434e-948b-36a0dfc6cfe7,normative,1,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 15:11:51.337+00,,0,5,4
+4f43761f-b6b1-4019-86be-36e89ae29a74,2e812134-90ba-44e2-b10e-f135b5c6ddd5,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:37:36.753+00,,0,5,4
+51b60ae8-765b-48c5-bcc0-8567449b174e,e817f2b7-c7dd-4cff-9367-138be05feaaf,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 17:38:26.465+00,,0,5,4
+5220de7a-5619-4c47-8478-b322f4594c58,2e812134-90ba-44e2-b10e-f135b5c6ddd5,normative,2,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 17:59:46.998+00,,0,5,4
+532a8293-2f86-4f00-8250-adc818f0416f,520fac17-1bfc-4435-90f5-9cde743aeceb,normative,1,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 17:43:14.811+00,,0,5,4
+536d84c3-c688-4317-bb0e-2c11ba5d7fca,bb3bf185-23ab-460f-8e39-e7bcd54eb3f9,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 17:35:41.2+00,,0,5,4
+5372a953-6071-4f21-a149-2f24180a082c,cda01786-9a32-4292-8f0d-2b2717a685d4,normative,1,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 17:40:04.165+00,,0,5,4
+54e25654-89c6-4288-8438-114b00c18138,4ef00beb-110b-4d54-9b31-ecd001440d8a,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 15:24:32.488+00,,0,5,4
+55262c98-3a66-4587-86ed-1f051f64d239,8c88f989-ee47-4a50-89de-f1d3cc6752dc,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 17:27:50.114+00,,0,1,1
+56cf9a07-9eaa-461e-ad1b-874f3ad1b787,b784e7ca-736e-44db-a3f3-2cd2f86c2d68,normative,1,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 17:26:18.643+00,,0,5,4
+590ad928-2237-4c2f-83da-6f10d13379bf,a0bf9560-92d1-4cb1-8248-b2152eebb996,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 17:53:22.892+00,,0,5,4
+5965afb2-8daf-408c-b1ea-ad500b14ceef,09b9e45a-2dad-4776-8f63-9a5ff5189f5f,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 17:36:17.522+00,,0,5,4
+59d18c57-26bd-4421-aed0-8dbbaca7b856,bcfa8ed7-049b-41a3-8758-cab44eb85c7e,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:44:20.132+00,,0,5,4
+5a05dbb6-6893-4e1f-9ab6-f0cbf72e2513,c1490d5a-63eb-43c8-8b70-aac901fc51d7,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,,,0,0,0
+5a5b567e-8a3d-4bb5-bd09-8282fc892fb3,871d350b-2da5-4cf0-8a7a-c2dc88bb4803,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 15:00:48.995+00,,0,5,4
+5b2cb791-0e6d-4cef-a531-9d97dcb887e4,93ad0c45-b342-4f90-8198-b588bced4349,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 18:21:15.749+00,,0,5,4
+5b8f029f-33e2-48db-af90-79c6f83662bd,5083f919-a4ef-4433-af16-5489ead1ea4e,normative,2,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 17:41:22.609+00,,0,5,4
+5c00b3d8-0a84-4e63-ae6f-734338c6e1b6,7ed3a914-8b04-43a8-b4a3-40a88e6eb270,normative,1,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 18:39:09.644+00,,0,5,4
+5d18f1ba-aa09-4195-8746-36a655af2e69,5113d9f7-3fef-4ec8-8a2d-d3d2eb771a9e,normative,2,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 17:47:25.593+00,,0,5,4
+5d5f974f-5f15-4d3e-b6ce-c53467f5d195,7ed3a914-8b04-43a8-b4a3-40a88e6eb270,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 18:51:29.952+00,,0,5,4
+5e2a8c2c-ac6b-4436-9b16-8257a8b0548c,9b21942f-17c3-4406-b78e-79d5b9a591bf,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:54:55.618+00,,0,5,4
+5e9b1222-a9bf-4095-8877-b92dd917465e,05139c5e-3fd5-4690-acb7-c2846171f544,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 18:23:38.568+00,,0,5,4
+5eb4a76f-eaee-47cd-9354-0ee09a37ca51,8c88f989-ee47-4a50-89de-f1d3cc6752dc,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:23:42.242+00,,0,5,4
+5eceac55-4ab9-4c04-a3e9-7a8ffc8998c1,68e6e5f1-1440-4cb4-bef8-4a7009a19b5c,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 15:32:44.077+00,,0,5,4
+5f0333e4-0199-43f6-9c96-8e171e8d3fc2,b113d736-45f2-4708-8d0b-4ab534334126,normative,1,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 17:47:59.527+00,,0,5,4
+5f4be60a-00a1-448c-b4ad-b7172aac4ad0,5b8f16c2-2f78-4373-bfd4-ac0f18f371e5,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 17:50:22.106+00,,0,5,4
+61a6b1e5-69cc-4caf-a75b-aa459ef996f0,5d934fc1-711c-402b-ac91-17e8e7f9b263,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 15:10:04.066+00,,0,5,4
+61bab524-0f34-4184-9351-3a706c3eb3d6,7c8f6bfd-5a39-49ef-83db-d5f330f9b53d,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:39:37.272+00,,0,5,4
+62170efe-b596-4f60-8b6d-498e2d63d2ef,2e812134-90ba-44e2-b10e-f135b5c6ddd5,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 17:45:46.291+00,,0,5,4
+62b6b4b6-40ed-49a8-afb7-2b0364cc50e9,74c9f1d7-3521-444e-9345-c995a33dc27a,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 15:22:23.357+00,,0,5,4
+62b8d719-b46b-407d-a438-311db9113799,aa5e0dc7-39c5-43aa-b82b-ef78f2b133c4,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 17:36:46.525+00,,0,5,4
+632ba971-500f-4837-8473-c9d75f5098e7,9a87156c-e259-4496-8112-91c616f9a63e,normative,2,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 18:26:17.846+00,,0,5,4
+643db8b6-cad1-485c-906e-a36e269641e4,e1941179-3705-4639-b6ce-ec82c3a00c66,normative,2,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 17:56:05.241+00,,0,5,4
+647ac6bf-a938-4fa2-811e-42a4a30fd68f,206652aa-efa6-46bb-8a66-bc2718a52ce6,normative,2,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 18:14:08.644+00,,0,5,4
+64ecd71d-e688-4e6b-b175-c301f217d370,c1490d5a-63eb-43c8-8b70-aac901fc51d7,test,0,Turning on cameras during online meetings is necessary.,test,,,,0,0,0
+64f2a82e-c379-430c-9557-98d96164c0e7,873bb404-396b-4a21-bd83-ad7dd1a10af9,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:58:29.129+00,,0,5,4
+6511581c-b550-437e-b8ea-c32fa28a6de0,05139c5e-3fd5-4690-acb7-c2846171f544,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:40:51.614+00,,0,5,4
+659b0de4-2ddd-40f3-ad19-5cae66684967,4a3c5081-d999-41a2-ac0f-c3be5c903638,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,,,0,5,4
+65c95267-7ec3-47d8-a0dc-1fce7f4d57df,1e1d464b-26ac-4535-bf85-ff1dd0a686b4,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 17:48:42.347+00,,0,5,4
+65ec6b0a-5615-423b-bd86-f60e34cdfb24,ae1e82c8-04e8-4d42-9f19-a2f3c1e789df,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:31:11.946+00,,0,5,4
+660f5b28-f5cf-4f83-863c-8a5f69ebeafa,889464d6-cce9-4e14-8ceb-032f3a0abf0c,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 17:39:54.899+00,,0,5,4
+665068e7-f5bf-492d-bf3b-34b552fcf40f,206652aa-efa6-46bb-8a66-bc2718a52ce6,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 18:03:27.846+00,,0,5,4
+66dae8b4-4aae-4e13-9b86-356099da2ea5,95f30d93-4281-4988-8ba2-840acccee258,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 18:18:34.812+00,,0,5,4
+67be5b24-d79f-4d1c-b07a-f49b016b3b18,492d89b6-d366-43d8-b3e3-3d3776f18f09,normative,2,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 18:07:50.747+00,,0,5,4
+68de8efc-7963-4d17-b3b3-029f4de2c450,ae1e82c8-04e8-4d42-9f19-a2f3c1e789df,normative,2,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 17:53:55.313+00,,0,5,4
+690815fe-5620-43f3-b82b-80ce895564c8,2f6754e3-91f8-42c4-8052-4680060616bb,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 18:51:58.25+00,,0,5,4
+69964b5c-120a-4843-9cbd-23d6b5123378,09fb713b-901d-462f-84e3-212c0d1fec01,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:37:53.59+00,,0,5,4
+699a7444-36d0-43b0-b43a-00d6fb010fe0,09fb713b-901d-462f-84e3-212c0d1fec01,normative,1,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 18:01:51.477+00,,0,5,4
+6a713c32-9659-400f-8395-0b364fa329f6,c1490d5a-63eb-43c8-8b70-aac901fc51d7,normative,2,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 18:27:40.563+00,,0,5,4
+6c88d1b3-5942-4642-a7b1-787a20520724,c4a05007-d05c-4c31-ad2a-bdd43c99c96f,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:35:49.845+00,,0,3,2
+6d8f2857-d999-445a-a588-55cb7a426bbd,bf38b76e-3b5d-4be2-8904-0f30398f1aca,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:29:06.993+00,,0,5,4
+6e61c3f0-e136-40ba-a0a0-3c343d8489e3,5390b6eb-1261-4376-8663-e7c71c700f28,normative,1,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 17:25:05.852+00,,0,5,4
+6f6fa89a-b233-4537-b125-baca081649d5,ab008076-6538-4925-beb0-9c2ac8259d81,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 17:42:43.484+00,,0,5,4
+6fe17768-0b67-4843-9dba-a09bdef628f1,5ee36000-9570-49d1-9020-94e47b4fc598,normative,2,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 17:38:52.907+00,,0,5,4
+709ab2a4-550b-4501-a293-eb3eda5f9724,a0bf9560-92d1-4cb1-8248-b2152eebb996,normative,1,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 17:43:39.653+00,,0,5,4
+70ac5912-2079-43dd-bd41-2e12eea148c2,493833b0-279f-4de0-98ef-75ccbb764aac,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,,,0,5,4
+711bb825-dcb2-4e31-bf1d-6b55aa89e13c,37434cb2-4371-4c88-93e7-ba80a6511ca3,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:56:13.216+00,,0,5,4
+7137f297-60c8-48ba-82ff-e68cce67713f,37434cb2-4371-4c88-93e7-ba80a6511ca3,normative,2,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 15:17:06.608+00,,0,5,4
+7168968b-de94-40bd-a200-9d59798bafb5,659ac0e4-10df-4693-aaad-d97429810408,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:49:03.32+00,,0,5,4
+72b74453-5c6e-4c14-948e-6aeb8223b341,5270e09f-e86d-46cf-86b5-ebe8ddf36c6d,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 17:38:06.638+00,,0,5,4
+73888322-fa69-46d3-9512-868c714e7d29,4ef00beb-110b-4d54-9b31-ecd001440d8a,normative,2,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 15:38:55.033+00,,0,5,4
+74b67217-8392-4aa6-9c74-a69a5b4e18a5,659ac0e4-10df-4693-aaad-d97429810408,normative,2,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 18:09:23.44+00,,0,5,4
+74e459e4-30f0-4542-9232-c5b940a9a7c9,1e550f61-e86f-4792-9766-7a50fd3332e3,normative,2,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 17:33:41.873+00,,0,5,4
+7572296d-aa15-4231-bad2-a2ff4dac52e4,5083f919-a4ef-4433-af16-5489ead1ea4e,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:20:35.812+00,,0,5,4
+768ec3ce-a6c8-4c0b-8e7c-c3184e32b64e,5cc0e14d-5fe2-4447-b4ca-5994e3e10831,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 18:40:59.161+00,,0,5,4
+76a865a8-df4e-4eec-970c-45427bf4ee97,0930edef-2039-45fa-bf45-2ae4dec11438,normative,2,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 17:46:35.491+00,,0,5,4
+781b367b-1a98-4dac-b712-e79b83636363,828a3c44-961f-434e-948b-36a0dfc6cfe7,normative,1,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,,,0,5,4
+785e7f30-f1b5-4c8a-a2a4-a1db1ea75231,5b6a5a77-da0a-4cc4-b5fe-dbf17496f7df,normative,2,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 15:00:56.715+00,,0,5,4
+789d4180-f842-45cd-a97b-4aacd6792254,9d180490-c5b0-4d42-839f-a978a6afa540,normative,1,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 17:40:41.165+00,,0,5,4
+79c7637b-9271-4992-a7f4-688b6df90e3b,2f6754e3-91f8-42c4-8052-4680060616bb,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 18:10:24.957+00,,0,5,4
+7b232869-1922-4ce9-81c2-6a6c6cd8e0db,5ee36000-9570-49d1-9020-94e47b4fc598,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 17:28:30.608+00,,0,5,4
+7b7764c7-54ac-4fc6-b604-a5885cc34c28,f648a570-513c-4482-9932-71c78717586c,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 17:56:30.452+00,,0,5,4
+7b9d41cf-2131-4fbb-a4b0-a8bad95b9ec3,50c64a07-874c-462f-9770-2562cd4f2890,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:23:19.129+00,,0,5,4
+7ba8b9af-508a-4bcb-9606-67189896d0fe,858e5a85-eb83-448d-a58c-c7974a70b99e,normative,2,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 17:43:53.249+00,,0,5,4
+7caefba3-f0cb-4663-8148-f5858a1de219,4225fb9a-e135-4365-b761-b672e40539e1,normative,2,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 17:59:16.939+00,,0,5,4
+7d99d2c7-3d33-425a-88d3-61cc9d441bd9,dc4e73f1-4cf5-47ea-a5b9-d58eaaf436e3,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:28:13.673+00,,0,5,4
+7f9f6dac-1112-4c33-928a-242f50aed797,fcc2cd74-0d9d-4548-bfb0-15d9b696452e,normative,1,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 18:06:03.913+00,,0,5,4
+7fb94ab2-10e6-4171-8652-34e63acabcf0,15a24730-cdbc-4c30-ba5c-a2bb3c8683aa,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:32:38.076+00,,0,5,4
+8136eb07-68ac-49c6-a326-3b7de5e8f3ac,9d0abbe5-a06d-4ded-ad7b-5ee1139b84c9,normative,2,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 18:19:31.862+00,,0,5,4
+813d2aa4-33b2-4a5c-964c-1c0af106c903,3794c56c-dffa-48cd-b926-e7a6b094f258,normative,1,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 15:02:45.154+00,,0,5,4
+82092535-b47e-43a7-9304-e9b4c405339a,b2f2cdd4-44e9-4283-b632-ff9f49664bf0,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:38:37.257+00,,0,5,4
+8294aba4-719d-4cb2-bc0c-75ce00cea93c,5113d9f7-3fef-4ec8-8a2d-d3d2eb771a9e,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:28:10.893+00,,0,5,4
+82a0f503-89a1-4f0e-8bf5-c235b1e673a8,586f1871-adb3-424f-b2e5-45545395dc93,normative,1,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 17:38:05.897+00,,0,5,4
+8309fcbc-0d1f-4ff0-93da-226e27aa23d7,ae947f61-8ce5-456c-9663-5e29f5248f4b,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:31:38.867+00,,0,5,4
+836a2288-8367-45a4-9d85-73834119841a,93c35761-c7dd-49aa-94f9-6420fc5f0b78,normative,1,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 17:30:38.693+00,,0,5,4
+8370a2ea-3c15-4e1d-8efe-d996043bbe88,d2b20821-42b6-4816-87d4-6b927756c0da,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 15:02:45.155+00,,0,5,4
+83807743-69fa-4214-92d6-a761e6d70314,b113d736-45f2-4708-8d0b-4ab534334126,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 17:58:01.38+00,,0,5,4
+8473cc7c-8138-4c81-98f5-913f35201090,09fb713b-901d-462f-84e3-212c0d1fec01,test,0,Turning on cameras during online meetings is necessary.,test,,,,0,5,4
+8518b081-9407-4d0d-bd17-9dc85b37bb5f,07d88852-7da1-4eaa-9413-468d15f8dc10,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:26:32.695+00,,0,5,4
+854163ef-c1ba-45e2-9680-a1b382500f58,cef7f64b-9637-4193-bdd6-c9943b06c56a,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 14:56:35.62+00,,0,5,4
+85d570be-bef7-41b3-a43b-5e75fa80e300,036599a1-cd2b-44e3-bab7-cb5fba869ec8,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 19:07:34.629+00,,0,5,4
+86789786-d325-4fd5-a80b-2ea96df00621,1e550f61-e86f-4792-9766-7a50fd3332e3,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:23:02.468+00,,0,5,4
+86a999c4-c037-41da-b79c-bd5e34a86fde,14bf7228-fadd-491c-8cc4-c74dd4c3fba6,normative,1,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 17:40:09.344+00,,0,5,4
+8736c52a-3847-418f-b87c-f69f788456b5,9b21942f-17c3-4406-b78e-79d5b9a591bf,normative,2,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 18:10:05.323+00,,0,5,4
+875338e2-8e96-4a3f-a996-d01f98aebf14,b532a2a0-cb98-42dc-b522-088859f7b0c5,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 17:40:54.48+00,,0,5,4
+87aef517-282d-4f0d-9687-7ce8c76ab85e,e1941179-3705-4639-b6ce-ec82c3a00c66,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:31:15.003+00,,0,5,4
+87da746e-23df-48b0-b847-f5a74df95120,8ede819d-117f-4546-8585-2d06a42a44ed,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:24:11.693+00,,0,1,1
+8805719e-15c5-41f4-a6ff-d015651244fc,93ad0c45-b342-4f90-8198-b588bced4349,normative,1,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 18:13:05.07+00,,0,5,4
+881421a2-719c-4039-a114-c4c9b6d47a5e,c5c5f9a8-56b2-47cb-ba19-8c86e4b86f3b,normative,1,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 17:32:58.864+00,,0,5,4
+88afb89d-74aa-4f6f-aa2a-730a9449e796,84960d02-7dc3-43a3-b2e1-a945f23d90f0,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 15:09:12.763+00,,0,5,4
+88f8a693-10d2-45c6-997f-3d8d7eef7bb0,60e7f8e1-4778-4be6-8622-22df2d440588,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 17:41:58.492+00,,0,3,2
+896d3fc7-2a2a-4b5f-8aa8-5a3976ce469b,0970deef-da21-4b37-bddf-814b4a94c050,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 17:51:27.394+00,,0,5,4
+89868fcc-e101-4f52-abec-d13c906852bd,cda01786-9a32-4292-8f0d-2b2717a685d4,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 17:51:38.343+00,,0,5,4
+8af3eba8-f7b9-4d46-8b60-c31839dd8510,32539ad3-ad81-4f6f-8e57-de29a6edae93,normative,1,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 17:34:04.765+00,,0,5,4
+8cba5fc6-e7b6-41fa-8177-86367b446e4b,b8fcffcb-d710-49d0-9416-bcdbb05a9fb3,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:36:18.629+00,,0,5,4
+8ddf7d64-3e30-48fc-8dc9-9388b56c0f1a,0ddcc4f5-84cf-4232-91c2-55d084eda6e9,normative,1,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 17:29:20.409+00,,0,5,4
+8de1c849-f498-44bc-8651-ca1fa0c07cb8,c5c5f9a8-56b2-47cb-ba19-8c86e4b86f3b,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 17:43:24.256+00,,0,5,4
+8e50e48d-d9eb-4342-ba7d-c19d3686f044,50c64a07-874c-462f-9770-2562cd4f2890,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 17:35:00.868+00,,0,5,4
+8ea5faa4-0571-4270-976c-eb6cfa2397ca,3794c56c-dffa-48cd-b926-e7a6b094f258,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:55:01.384+00,,0,5,4
+92142348-9cfe-40ce-ac02-7a80e451e6d3,1e1d464b-26ac-4535-bf85-ff1dd0a686b4,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:38:09.963+00,,0,5,4
+92ab954c-1df2-4be6-ad89-a29f0491bca6,5ee36000-9570-49d1-9020-94e47b4fc598,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:22:57.882+00,,0,5,4
+93b2c748-3e24-46ff-af39-f43073097d11,493833b0-279f-4de0-98ef-75ccbb764aac,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 17:41:49.327+00,,0,5,4
+93d206e9-8324-4055-97f8-18765eda3467,2648d04c-6732-41ba-a408-acd2a3ec32e7,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 14:57:10.516+00,,0,5,4
+948efcb7-351c-4ab6-a1c2-627fc5efc3a6,b121bfe8-f8b7-48fc-af14-f99c15aedc62,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 15:40:42.558+00,,0,5,4
+9497e3e4-3b2e-459b-9a1d-a70f338c69ac,918d8839-cfa1-43d5-87d8-24f1600592b6,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 17:36:09.087+00,,0,5,4
+9514e1f1-4156-4418-9bfa-7c1e9ea31f9b,329bdee7-2437-4ed2-b7e8-132722cccc01,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:32:26.485+00,,0,5,4
+9656440b-d7ce-455e-a4a3-65fbc7c94d31,dc4e73f1-4cf5-47ea-a5b9-d58eaaf436e3,normative,1,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 17:35:30.328+00,,0,5,4
+96f0788b-3886-49f7-9449-9bbafa85f7ec,cef7f64b-9637-4193-bdd6-c9943b06c56a,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:49:48.597+00,,0,5,4
+97160835-ef40-472a-a6bf-0aecb9e9945e,b121bfe8-f8b7-48fc-af14-f99c15aedc62,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 15:45:34.644+00,,0,5,4
+9750ceef-a6be-4994-af3f-4edea5e3c593,7c8f6bfd-5a39-49ef-83db-d5f330f9b53d,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 17:48:18.978+00,,0,5,4
+97af1925-e252-4b22-9df2-6f28397e8912,4a3c5081-d999-41a2-ac0f-c3be5c903638,normative,1,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 14:59:34.377+00,,0,5,4
+981d05a4-ff3e-4126-8c86-655ee33f9134,493833b0-279f-4de0-98ef-75ccbb764aac,normative,2,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 18:00:06.986+00,,0,5,4
+99373345-8682-4051-b5ce-cb0cb34febba,9d180490-c5b0-4d42-839f-a978a6afa540,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:33:29.727+00,,0,5,4
+998a0a2f-37bf-4503-9291-630cffbb48b6,38598dd5-4b64-46e0-8bda-c1a3766ec74d,normative,1,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 17:57:24.432+00,,0,5,4
+99abbca0-8279-464e-8eb9-1a520276deea,53a97c91-f20c-45e2-bb24-3de3bf2f48a9,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 14:58:17.134+00,,0,5,4
+9a879155-2242-4f8e-8279-d2e82fb29b57,511ad65b-efbc-4180-beae-8546a05a4b4e,normative,1,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 18:00:00.68+00,,0,5,4
+9bf0cde6-ea1e-4013-b6b8-a88d5526030f,8f9ebfca-c50d-4ed1-8314-27f04276794e,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 19:04:13.821+00,,0,5,4
+9c07fdc2-7a24-446e-9678-77c6632ec22f,fcc2cd74-0d9d-4548-bfb0-15d9b696452e,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:57:28.621+00,,0,5,4
+9ca0ed24-3e29-4491-8cb2-49075fa8d24d,cfff5380-ac7a-474b-b789-c9210b78dd2b,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:59:17.211+00,,0,5,4
+9e815593-e64c-4ca8-afce-86d341407b41,cac93c83-183d-4a39-91da-6e4e735430b2,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:36:50.518+00,,0,5,4
+9f27675d-b781-4fe9-ae40-3547662559cd,5270e09f-e86d-46cf-86b5-ebe8ddf36c6d,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:31:09.003+00,,0,5,4
+a012cfb4-8dbf-4038-b4fd-63d736109304,c724fed7-5bb1-4e16-972d-c7dbac7ba34e,normative,1,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 14:54:43.506+00,,0,5,4
+a13c9d54-4f12-4202-a2c9-90ca4663dbbf,c1160f10-3fe4-45c8-bedb-256f1b56060e,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 18:03:43.769+00,,0,5,4
+a3ba1cf2-55e2-4c6c-a921-a9998b5678c0,d2b20821-42b6-4816-87d4-6b927756c0da,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,,,0,0,0
+a3fdbabf-5ecf-45ae-9eee-1eb26e392fde,cfff5380-ac7a-474b-b789-c9210b78dd2b,normative,1,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 15:14:37.002+00,,0,5,4
+a419eee1-a6d9-423c-ad41-d92f1bd5bedf,659ac0e4-10df-4693-aaad-d97429810408,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 17:55:24.516+00,,0,5,4
+a495ec64-5b29-4a7e-8bb1-d42d1778c6b1,329bdee7-2437-4ed2-b7e8-132722cccc01,normative,1,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 17:36:34.954+00,,0,5,4
+a5ab4c97-4e06-49f7-a776-abf2ee927b40,6f261ba5-7677-4255-997d-0cba9bcc268c,test,0,Turning on cameras during online meetings is necessary.,test,,,,0,0,0
+a5cb7dff-b378-42c5-b7ba-3e0d22c1482e,76c4e229-7446-48aa-9461-ec0a87415b29,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:21:54.909+00,,0,5,4
+a5e81d3f-2f2f-45e4-86d8-ca607ecda552,bcc249fd-32ed-4e01-86bf-c028c2287a74,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 18:20:45.104+00,,0,5,4
+a61637d1-1f9c-4495-baaa-00d27d42781b,7ed3a914-8b04-43a8-b4a3-40a88e6eb270,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 18:31:56.445+00,,0,5,4
+a6933f52-8328-41b2-b358-95db94e45a3b,4f37c0a8-685a-4f8e-863c-f27a94a4236d,normative,2,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 18:10:07.86+00,,0,5,4
+a7937fd2-6ed4-4d41-87b4-4d95d78d2124,cac93c83-183d-4a39-91da-6e4e735430b2,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 18:12:15.352+00,,0,5,4
+a8536cf9-876e-4245-ba0b-027927a856db,0930edef-2039-45fa-bf45-2ae4dec11438,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 17:31:41.999+00,,0,5,4
+a86696c7-5e64-4129-98d3-2414a2ad408d,b113d736-45f2-4708-8d0b-4ab534334126,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:42:20.278+00,,0,5,4
+a922d0d7-ac6d-4233-a9e7-4a28d58f5ff7,32539ad3-ad81-4f6f-8e57-de29a6edae93,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 17:49:43.886+00,,0,5,4
+aa3b3340-8f93-4ba0-b03c-9bb9c2efd369,c1160f10-3fe4-45c8-bedb-256f1b56060e,normative,2,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 18:15:19.104+00,,0,5,4
+aa4078a9-1940-4e7d-9b47-28134e8ad368,85df1458-9ca6-4192-8023-967795afee8f,normative,2,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 15:39:10.757+00,,0,5,4
+aac6a735-4c68-4d11-a010-7a8d5a237044,03e8f4b6-1152-46b6-9d4b-857e3a7d6a46,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:31:49.151+00,,0,2,1
+ab2fb4cc-8f41-4470-a08a-700736750ff7,32675228-78fc-4a45-91cb-6e2abd39ca5f,normative,1,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 15:09:16.602+00,,0,5,4
+ab6ca76e-b70d-4132-baba-77b2a8dc626e,1956d093-8877-452f-b605-d6975cedbfa9,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 17:46:16.497+00,,0,5,4
+ad5370b8-d456-4874-b3e2-27fd1c34d0e4,0ddcc4f5-84cf-4232-91c2-55d084eda6e9,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 17:39:49.317+00,,0,5,4
+adc46cb8-a029-4561-8139-53f1268ffcec,a070fecf-acb3-4d27-abe1-e6739b8537f3,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:24:57.651+00,,0,5,4
+ae0a6e6a-c60c-4aff-aed3-5a57a623f021,c73badf7-3e8c-4394-bebd-062f9d8e2c65,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 18:05:00.508+00,,0,5,4
+ae66a9d7-bfb3-4633-86ae-c072d3cabaf9,b784e7ca-736e-44db-a3f3-2cd2f86c2d68,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 17:35:41.239+00,,0,5,4
+ae780f2b-625d-4b31-935e-a55f4dcb4305,1b52f199-6ea6-4a97-bcae-73fadd8581e3,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 17:43:13.866+00,,0,5,4
+aec28946-b08e-4410-b930-0a0a84302ce0,f3619e69-7a0a-47bd-a00f-daed6fc2ce92,normative,2,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 15:29:41.622+00,,0,5,4
+aed94b2a-a033-4b95-9d82-47407c617f98,09b9e45a-2dad-4776-8f63-9a5ff5189f5f,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:31:14.858+00,,0,5,4
+af04bafe-1450-4e9e-82e5-279b0fc6980b,4225fb9a-e135-4365-b761-b672e40539e1,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:38:06.075+00,,0,5,4
+af290681-ab09-4d5b-bbd2-3a453b82ea91,66a31a6c-cd36-4668-b475-44db5f8dae1e,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 15:01:11.03+00,,0,5,4
+af7a1f23-c379-4404-b892-775d36a51f64,21b14e1e-73cd-4390-af56-e404b575742d,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:49:44.95+00,,0,5,4
+affb9775-a36d-4849-8376-83152f2866f8,134c2569-bfe7-414e-86a0-d3b3f948f5e9,normative,1,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 18:52:22.622+00,,0,5,4
+b071b170-500b-49e2-83d5-548974c6b433,329bdee7-2437-4ed2-b7e8-132722cccc01,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 17:44:48.725+00,,0,5,4
+b0ba8856-06f0-42ad-844f-4dd2965db5a4,bb3bf185-23ab-460f-8e39-e7bcd54eb3f9,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:21:15.958+00,,0,5,4
+b12d4461-ad15-46d9-ac65-2b3782be35a2,1e550f61-e86f-4792-9766-7a50fd3332e3,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 17:27:27.344+00,,0,5,4
+b15eed35-7ff5-4704-be22-1d394a39e932,6ae81c9a-e082-4873-ae39-7c0f54a06c50,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:24:02.045+00,,0,5,4
+b1d4f929-a827-4508-8dad-a931d24064aa,6e51d200-d884-4119-8396-68494a7ddf3f,normative,2,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 17:41:20.173+00,,0,5,4
+b2923c2f-f5a9-4c0c-ab94-db5831b91981,6ae81c9a-e082-4873-ae39-7c0f54a06c50,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 17:33:56.614+00,,0,5,4
+b35fbc0e-0e2f-4be4-a300-5b58c3dee925,9d0abbe5-a06d-4ded-ad7b-5ee1139b84c9,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 17:41:55.396+00,,0,5,4
+b3763910-5cdc-462d-a9fc-3aa44983f113,5270e09f-e86d-46cf-86b5-ebe8ddf36c6d,normative,2,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 17:49:13.212+00,,0,5,4
+b3965069-6ac9-4cc1-8259-d98d86a1f412,eda76aba-529a-4bba-a2de-ccddec750d17,normative,1,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 14:56:32.743+00,,0,5,4
+b4f783cc-81c5-46ae-96b9-21ae18987d4f,32b70b37-a395-44f7-af56-31268be200c4,normative,2,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 15:01:14.905+00,,0,5,4
+b558c4d2-474b-4705-8384-a9b4503d57a2,828a3c44-961f-434e-948b-36a0dfc6cfe7,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:58:04.268+00,,0,5,4
+b57ae830-8ab1-4310-8fe6-515b756a0319,a06d8bf2-816c-48a8-b4fe-03c79b290a30,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:25:45.42+00,,0,5,4
+b5f452ca-e1c7-49a8-ba94-990df6d9e87c,4a257cd1-8d04-4b90-a741-5745fa88f51a,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 15:06:37.592+00,,0,5,4
+b62f9e60-53ff-4b2d-b3a0-e3751c644724,bcfa8ed7-049b-41a3-8758-cab44eb85c7e,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 18:13:54.992+00,,0,5,4
+b68e5a8f-5929-47b3-8d02-17503f0a84b1,5b8f16c2-2f78-4373-bfd4-ac0f18f371e5,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:46:54.336+00,,0,5,4
+b6d2000d-f4c8-4639-b179-53cc6869deaf,531f9ad6-bffe-44e4-a4f4-e115908912f6,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:49:20.258+00,,0,5,4
+b7fcf4d5-7faa-4565-b924-cb55ae5d955d,7828fa6e-2064-4d65-a533-7b743e1b3430,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 17:35:44.159+00,,0,5,4
+b80863d5-8cc0-4e75-b1d5-cf225ca0fcb9,511ad65b-efbc-4180-beae-8546a05a4b4e,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:54:07.211+00,,0,5,4
+b86b4477-174e-4d5f-b5c0-9db220784521,c1160f10-3fe4-45c8-bedb-256f1b56060e,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:54:02.389+00,,0,5,4
+b8750a8f-f026-44ba-9735-728d31940778,50c64a07-874c-462f-9770-2562cd4f2890,normative,2,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 17:51:20.698+00,,0,5,4
+b8937540-52e6-430c-bc7b-a90ba8d7fcf9,493833b0-279f-4de0-98ef-75ccbb764aac,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:34:16.017+00,,0,5,4
+b8b7e31f-11d3-46b1-a831-33416ade3307,531f9ad6-bffe-44e4-a4f4-e115908912f6,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 14:55:13.655+00,,0,5,4
+b8d1008e-41fa-418e-9fec-7c709100312e,43767e66-41d2-4d39-ab15-55bb730cb0ed,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 17:43:56.412+00,,0,5,4
+b94d1e75-4ef5-492c-976b-ddd01d00dc37,b532a2a0-cb98-42dc-b522-088859f7b0c5,normative,1,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 17:31:59.107+00,,0,5,4
+ba0d073b-3f18-454b-bba5-305497d60299,9a87156c-e259-4496-8112-91c616f9a63e,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 18:04:31.626+00,,0,5,4
+baadf01f-d7df-4a32-8f04-4d8919b274e9,929a3771-f5d2-4878-8a0f-a54e9ddd35f3,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:31:10.803+00,,0,5,4
+babd202e-c0d3-47f6-8114-41317babbf82,5cc0e14d-5fe2-4447-b4ca-5994e3e10831,normative,2,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 18:53:30.297+00,,0,5,4
+bb17b2ff-598a-488b-a629-2ce400f536f5,4fc031df-bd76-4619-affa-8dcd30c6c748,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:58:29.001+00,,0,5,4
+bb3185e4-01b3-473a-93cc-49e55518c1d3,4ecb8388-2338-4007-81be-d00054e8c430,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 18:03:38.202+00,,0,5,4
+bc1b494b-28c6-4b09-94ac-9903e45830f9,e1941179-3705-4639-b6ce-ec82c3a00c66,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 17:39:30.517+00,,0,5,4
+bd42741d-d489-4ac0-b1e3-5b3337122786,5d1b61d5-a2f2-44bd-a128-edf1f61bd715,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 17:36:22.401+00,,0,5,4
+bd9c410d-eb68-4c1a-a82b-049def6a08fc,aa5e0dc7-39c5-43aa-b82b-ef78f2b133c4,normative,1,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 17:27:11.611+00,,0,5,4
+be055eed-5563-457b-a3fb-27015e7fe84f,bcc249fd-32ed-4e01-86bf-c028c2287a74,test,0,Turning on cameras during online meetings is necessary.,test,,,,0,5,4
+be886843-828a-4819-a5cf-9a46704324ad,4fc031df-bd76-4619-affa-8dcd30c6c748,normative,1,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 15:05:05.382+00,,0,5,4
+bf6522a5-e359-4e74-9735-8c6eeaca26b1,66a31a6c-cd36-4668-b475-44db5f8dae1e,normative,2,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 15:14:24.978+00,,0,5,4
+bf8948eb-f285-42bd-a2a9-cf11c8b57efe,4fc031df-bd76-4619-affa-8dcd30c6c748,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 15:16:25.289+00,,0,5,4
+bfa3bb90-0ba2-4d2d-b2d0-40defe7e2d9a,528d982e-72f3-4ebc-bd6a-efc7316f4baa,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:21:01.916+00,,0,1,0
+bff59fff-8127-4389-8aac-8ae7481d2755,ae1e82c8-04e8-4d42-9f19-a2f3c1e789df,informative,1,Thomas Edison is famous for inventing the light bulb.,informative,4,2025-09-09 17:39:16.3+00,,0,5,4
+c034151f-4ea0-4ec0-b143-1a5fe07b2ffc,5113d9f7-3fef-4ec8-8a2d-d3d2eb771a9e,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 17:33:45+00,,0,5,4
+c055cfda-9ddb-41da-8aa0-fcdf80802b5d,14bf7228-fadd-491c-8cc4-c74dd4c3fba6,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 17:50:20.332+00,,0,5,4
+c1f3d10f-7d3f-4ee2-aacf-45374467a725,e7bee9a5-10ae-426c-8b08-27934b9281bb,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 17:43:47.822+00,,0,5,4
+c1fe82ba-85b2-42d4-9249-dbf75b97c2a3,bcfa8ed7-049b-41a3-8758-cab44eb85c7e,normative,1,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 18:00:56.403+00,,0,5,4
+c41a40d8-a4a7-4479-ae44-295bcbda5df7,ab008076-6538-4925-beb0-9c2ac8259d81,normative,1,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 17:32:48.562+00,,0,5,4
+c60a3be1-7c32-4d3c-bfe3-b4a324bd0ac0,07d88852-7da1-4eaa-9413-468d15f8dc10,normative,2,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 17:40:37.839+00,,0,5,4
+c6ac35d9-7fa2-4a4c-bffa-a750dc6a7d4f,4f37c0a8-685a-4f8e-863c-f27a94a4236d,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,,,0,5,4
+c6fbc84b-e2ae-4148-b0ad-52be9eb0fea6,a0bf9560-92d1-4cb1-8248-b2152eebb996,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:37:04.615+00,,0,5,4
+c70d9da0-eef4-42e8-aad1-a31a80c1cc20,dcd1ed62-d5a6-4302-a597-724e85fa3a91,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:26:06.816+00,,0,5,4
+c7df4345-1066-4b14-b884-68633fb1dc6e,f648a570-513c-4482-9932-71c78717586c,normative,1,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 17:41:44.855+00,,0,5,4
+c80b4e59-a3f4-466b-ae74-236b4383b9b4,aa5e0dc7-39c5-43aa-b82b-ef78f2b133c4,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:22:09.776+00,,0,5,4
+c877d829-d977-4a79-a07c-138f860bbeb7,e9735720-d13d-47c9-99f1-be9ec8418a61,normative,1,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 17:31:33.863+00,,0,5,4
+c912a8b7-5178-4521-a054-883e5937c2dc,66a31a6c-cd36-4668-b475-44db5f8dae1e,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:55:27.432+00,,0,5,4
+c98ac01e-c458-45ff-8ca1-0853ad842a38,5b6a5a77-da0a-4cc4-b5fe-dbf17496f7df,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 14:55:05.314+00,,0,5,4
+ca3acf06-d772-44ab-801e-0732cee07a4b,858e5a85-eb83-448d-a58c-c7974a70b99e,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 17:32:53.261+00,,0,5,4
+cabd2549-cb7d-4812-99f1-eaeea3fc0151,036599a1-cd2b-44e3-bab7-cb5fba869ec8,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 18:45:42.464+00,,0,5,4
+cad4b210-bc92-46b5-baaf-8cc4629d8ead,918d8839-cfa1-43d5-87d8-24f1600592b6,normative,1,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 17:27:45.568+00,,0,5,4
+cb14d7fe-86bf-4c1d-837a-59f925bfd5ab,5b8f16c2-2f78-4373-bfd4-ac0f18f371e5,normative,2,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 17:55:37.299+00,,0,5,4
+cd3f91f3-cff2-4405-adcf-8a646f70931e,84960d02-7dc3-43a3-b2e1-a945f23d90f0,normative,1,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 14:58:36.082+00,,0,5,4
+cedbae63-8768-41d7-8629-b6d14e9d7a54,531f9ad6-bffe-44e4-a4f4-e115908912f6,normative,2,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 15:05:49.957+00,,0,5,4
+d1129d78-2d0c-4d25-85eb-a73f787d0979,bcc249fd-32ed-4e01-86bf-c028c2287a74,normative,1,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 18:05:57.872+00,,0,5,4
+d2665e6e-58ff-4655-9ed1-5294ec0903bf,ab008076-6538-4925-beb0-9c2ac8259d81,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:26:44.783+00,,0,5,4
+d448fc94-fe5d-4501-b5e4-b906e0a144be,77c2f6c1-59bb-4529-b4bd-95947c8939bb,normative,1,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 17:32:09.522+00,,0,5,4
+d5ee7653-559b-44dd-8cf3-9bd434f2957f,7b37ae66-f309-40f3-876b-534190445346,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:24:19.184+00,,0,5,4
+d6403fec-688a-4f4d-a0df-10b3062e6981,00f48994-a285-4631-9696-edbecccdbd14,normative,2,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 17:42:14.47+00,,0,5,4
+d6fb9e54-2a0a-49ab-8d5a-5b3cab8cc3e3,4fbd634d-a658-43dd-badb-bc2fea80cafd,normative,2,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 18:21:28.751+00,,0,5,4
+d73bc998-ca56-4c65-9029-4de8d482007c,69268d3f-39bc-4530-924b-d854ebbd35e4,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 17:30:44.266+00,,0,5,4
+d74dcd34-dad9-438c-8074-2d6b662f5ac8,cef9291c-661f-4221-a4f2-9d8bf16fb111,normative,1,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 15:28:29.988+00,,0,5,4
+d7940426-286e-4d87-95b0-58ad1fde89cf,4d1cd95f-4f3f-40ae-ab18-7f0171c8d7f7,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 17:54:23.095+00,,0,5,4
+d7d4e24c-d92d-48b8-a437-699cf53a76d9,32b70b37-a395-44f7-af56-31268be200c4,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 14:52:21.043+00,,0,5,4
+d8b9f248-55be-4d23-99f5-d68f99166ce0,c724fed7-5bb1-4e16-972d-c7dbac7ba34e,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:47:12.119+00,,0,5,4
+d8e044ed-8f84-460a-b245-7866c1401907,134c2569-bfe7-414e-86a0-d3b3f948f5e9,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 18:41:13.933+00,,0,5,4
+d9354584-e8fd-4a17-bb85-6398ef2615e2,b532a2a0-cb98-42dc-b522-088859f7b0c5,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:27:23.113+00,,0,5,4
+da1d5211-8753-4c1b-b4fe-329677e679c2,4ecb8388-2338-4007-81be-d00054e8c430,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:38:57.902+00,,0,5,4
+dcb6d41d-a838-4215-a267-bc530d0a6c19,6d1797b0-a111-47d7-be49-735a3794db00,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:55:36.188+00,,0,5,4
+dfab24c3-f74a-4af9-841e-de62770cdde1,1b52f199-6ea6-4a97-bcae-73fadd8581e3,normative,2,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 17:52:25.692+00,,0,5,4
+dfb70fd4-1e80-4015-8f8c-82c31fdb8508,4a3c5081-d999-41a2-ac0f-c3be5c903638,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 15:24:38.498+00,,0,5,4
+e0237174-e681-4289-84d3-555f5dc48ca4,6d1797b0-a111-47d7-be49-735a3794db00,normative,1,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 18:02:09.66+00,,0,5,4
+e0fb56fa-bd1f-466e-9dc9-6f0507400321,4f37c0a8-685a-4f8e-863c-f27a94a4236d,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:25:32.44+00,,0,5,4
+e129e60c-0b86-4643-aaab-5390ba68e4f2,9d0abbe5-a06d-4ded-ad7b-5ee1139b84c9,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:30:32.575+00,,0,5,4
+e183e6da-8639-4cc1-8ab2-b11f7ef97fe0,bf38b76e-3b5d-4be2-8904-0f30398f1aca,normative,2,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 18:01:07.665+00,,0,5,4
+e2da847c-9b09-4b88-9499-8ab525741f10,21b14e1e-73cd-4390-af56-e404b575742d,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 14:55:04.323+00,,0,5,4
+e3835330-d04f-4e06-92e7-6ee2406a8f9d,dc4e73f1-4cf5-47ea-a5b9-d58eaaf436e3,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:28:13.673+00,,0,5,4
+e3f5ae55-65ee-419b-81fa-3dfcc92f8d54,bcc249fd-32ed-4e01-86bf-c028c2287a74,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:50:25.685+00,,0,5,4
+e43c0deb-09f7-4b12-92c6-4fbfa708a6ea,1956d093-8877-452f-b605-d6975cedbfa9,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:34:20.427+00,,0,5,4
+e4836ede-7efe-4499-b7ea-8e80d1f0ae03,c4a05007-d05c-4c31-ad2a-bdd43c99c96f,test,0,Turning on cameras during online meetings is necessary.,test,,,,0,0,0
+e4b68e20-e5c3-4085-a13f-2c67f0f40d59,43767e66-41d2-4d39-ab15-55bb730cb0ed,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:29:43.721+00,,0,5,4
+e520ca4c-bbba-4272-8f32-a129ce60faec,76c4e229-7446-48aa-9461-ec0a87415b29,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 17:35:50.377+00,,0,5,4
+e5387a26-ea44-4512-8a1a-48cb674ecad5,4fbd634d-a658-43dd-badb-bc2fea80cafd,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:49:45.406+00,,0,5,4
+e5b6ead7-8293-45ac-b196-d069e06accae,e7bee9a5-10ae-426c-8b08-27934b9281bb,normative,2,Hybrid work (remote + office) is more desirable than traditional office work.,normative,4,2025-09-09 17:57:27.264+00,,0,5,4
+e6183c56-f7aa-4d45-8e5f-1ced630436a5,77c2f6c1-59bb-4529-b4bd-95947c8939bb,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 17:40:44.326+00,,0,5,4
+e773fc18-0b59-42ba-81da-36b952a43c03,75db1808-af29-4ad0-bee6-29558574533b,normative,1,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 17:28:04.941+00,,0,5,4
+e9342e87-044f-4b99-8815-d2d14519144a,1b52f199-6ea6-4a97-bcae-73fadd8581e3,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:37:16.457+00,,0,5,4
+e94139f0-8f37-4271-a5a4-a5ee74fc3d11,5390b6eb-1261-4376-8663-e7c71c700f28,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:21:05.622+00,,0,5,4
+e98667c1-61e9-40ec-a028-8167a7eba5ef,d290402e-26f6-4447-883e-620e7f93c8bb,test,0,Turning on cameras during online meetings is necessary.,test,,,,0,0,0
+e9f1625f-f0f5-40bc-b95b-2cc1bbbf8412,0930edef-2039-45fa-bf45-2ae4dec11438,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:23:48.67+00,,0,5,4
+ea110b51-c660-4a8c-9284-075c27bf25f8,dcd1ed62-d5a6-4302-a597-724e85fa3a91,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 17:38:12.398+00,,0,5,4
+ea565e61-36e2-46ed-a54f-f3b494a36d9e,cef9291c-661f-4221-a4f2-9d8bf16fb111,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 15:19:03.617+00,,0,5,4
+ead9c30f-b39c-4472-82ca-dddf25e98d66,cd24dfc7-ab58-4701-8060-636ce24d286e,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 17:50:36.57+00,,0,5,4
+eb3e59f9-d283-4645-81b9-8636b9aced96,fcc2cd74-0d9d-4548-bfb0-15d9b696452e,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 18:23:13.916+00,,0,5,4
+eb732a2f-1243-4130-a78d-b720fd9a1fa5,9a87156c-e259-4496-8112-91c616f9a63e,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:54:03.594+00,,0,5,4
+ec1fa00c-dca1-4b2c-9cd7-50c859bcd134,e9735720-d13d-47c9-99f1-be9ec8418a61,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 17:46:25.73+00,,0,5,4
+ecf66645-3ccb-4ea1-b81f-4487a8caf11d,12977f58-b35a-48bb-ba9b-643cc0379c18,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 18:06:33.613+00,,0,5,4
+ede30ebd-58c7-4db8-8afa-c25fb25ce195,4ecb8388-2338-4007-81be-d00054e8c430,normative,1,Short and frequent meetings are more helpful than long and infrequent meetings.,normative,5,2025-09-09 17:46:16.478+00,,0,5,4
+ee272bc7-cc42-47e2-9ae1-38640daeaf95,d385aeea-2dd2-4f42-b57e-78a9b42f0382,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 17:46:00.244+00,,0,5,4
+ee374372-545d-46ae-9612-5314e8db2b58,69268d3f-39bc-4530-924b-d854ebbd35e4,normative,2,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 17:40:48.172+00,,0,5,4
+eee87754-ce2b-4c3a-a7d4-55a78fc8e9cc,15a24730-cdbc-4c30-ba5c-a2bb3c8683aa,normative,2,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 17:44:11.727+00,,0,5,4
+eeece28d-5345-4294-9e5d-0802baa4ac59,586f1871-adb3-424f-b2e5-45545395dc93,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 17:52:38.995+00,,0,5,4
+f10af371-208f-4f66-ac0b-b222db444172,15a24730-cdbc-4c30-ba5c-a2bb3c8683aa,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 17:38:34.428+00,,0,5,4
+f142556f-57dd-4221-aeb4-3d4491844597,cd24dfc7-ab58-4701-8060-636ce24d286e,normative,1,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 17:33:24.112+00,,0,5,4
+f1515466-f5c6-4b1d-be45-ca80cfe087ea,6d1797b0-a111-47d7-be49-735a3794db00,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 18:14:32.159+00,,0,5,4
+f170e77c-3b95-484f-a234-491939a89670,7c8f6bfd-5a39-49ef-83db-d5f330f9b53d,test,0,Turning on cameras during online meetings is necessary.,test,,,,0,5,4
+f1c84e72-f40f-4f2d-a509-cf1f71076cf3,dc4e73f1-4cf5-47ea-a5b9-d58eaaf436e3,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 17:51:58.808+00,,0,5,4
+f21f676f-f02d-41e7-b22a-2028d41b2336,75db1808-af29-4ad0-bee6-29558574533b,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 17:35:52.034+00,,0,5,4
+f22d72da-a367-4af0-9f03-064b68a84d67,a070fecf-acb3-4d27-abe1-e6739b8537f3,normative,2,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 17:42:59.661+00,,0,5,4
+f24e77c5-286a-474f-bdd9-5a7139c20afa,85df1458-9ca6-4192-8023-967795afee8f,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 15:19:31.537+00,,0,5,4
+f2aefeaf-75e8-4d73-a593-2bd7fa28cf79,036599a1-cd2b-44e3-bab7-cb5fba869ec8,normative,1,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 18:52:24.037+00,,0,5,4
+f37a2654-537f-4c5c-a487-f649284fb1f4,53a97c91-f20c-45e2-bb24-3de3bf2f48a9,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:54:45.353+00,,0,5,4
+f4488a35-3770-4e88-84d8-0c12abdf4359,d385aeea-2dd2-4f42-b57e-78a9b42f0382,informative,2,Koalas belong to the bear family.,informative,1,,,0,5,4
+f490d9bd-ed5d-4a29-9701-a2c8bcfe3908,3602b073-9f84-4bd3-a681-ea302ad6a1bf,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 15:00:27.741+00,,0,5,4
+f4d6e361-ada5-49f5-aad0-f01a02bf2d80,b8fcffcb-d710-49d0-9416-bcdbb05a9fb3,informative,2,Koalas belong to the bear family.,informative,1,2025-09-09 18:45:29.618+00,,0,5,4
+f5b58a71-0457-4285-b9ae-5bc6d2aa81c6,5083f919-a4ef-4433-af16-5489ead1ea4e,informative,1,The force that causes the surface of a liquid to contract to the smallest possible area is cohesion.,informative,2,2025-09-09 17:29:04.855+00,,0,5,4
+f5e2f99b-333e-4901-b808-232aebdd048e,09fb713b-901d-462f-84e3-212c0d1fec01,informative,2,Napoleon's nickname was 'the little giant' because of his short height.,informative,5,2025-09-09 18:26:04.157+00,,0,5,4
+f666ebdc-b7d9-4d94-9bfd-9896ba1a3346,76c4e229-7446-48aa-9461-ec0a87415b29,normative,1,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 17:26:09.523+00,,0,5,4
+f6d10a8c-2f00-4c5d-9eb8-c0e2a64c5cdc,37434cb2-4371-4c88-93e7-ba80a6511ca3,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 15:02:41.084+00,,0,5,4
+f6e14c63-ae87-4c4b-a04c-ea61053e0d35,cd24dfc7-ab58-4701-8060-636ce24d286e,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 17:25:45.972+00,,0,5,4
+f85908f8-94bc-4329-89d1-2e907c8d6834,c73badf7-3e8c-4394-bebd-062f9d8e2c65,normative,2,Honest and direct feedback is more helpful than polite and considerate feedback.,normative,3,2025-09-09 18:24:59.249+00,,0,5,4
+fa7e2b95-c821-4f77-9fe8-ddb7bf20270e,1e1d464b-26ac-4535-bf85-ff1dd0a686b4,normative,2,Online meetings are more efficient than offline meetings.,normative,0,2025-09-09 18:04:32.018+00,,0,5,4
+fb77ce4e-ee41-4c1e-a8b2-1b5a487121d7,4a257cd1-8d04-4b90-a741-5745fa88f51a,normative,1,It is acceptable to make a phone call inside an elevator when other people are present.,normative,2,2025-09-09 14:56:03.042+00,,0,5,4
+fcc72166-f2ab-42e0-b1c6-497bb3d92efa,eda76aba-529a-4bba-a2de-ccddec750d17,test,0,Turning on cameras during online meetings is necessary.,test,,2025-09-09 14:50:36.57+00,,0,5,4
+fd95e77a-bf0d-4437-b026-048af69a048d,32675228-78fc-4a45-91cb-6e2abd39ca5f,informative,2,'Chauvinist' is the correct English spelling of a word that means a blindly patriotic person.,informative,3,2025-09-09 15:17:42.543+00,,0,5,4
+fe84b153-24cc-4346-bb31-43f10e5c444b,4d1cd95f-4f3f-40ae-ab18-7f0171c8d7f7,normative,1,Customers must always leave a tip at restaurants.,normative,1,2025-09-09 17:45:59.076+00,,0,5,4
+ff882f9d-2c4d-441a-a23a-214f80c7eb3e,873bb404-396b-4a21-bd83-ad7dd1a10af9,informative,1,Cleopatra's lifetime was closer in time to the Moon landing than to the construction of the Great Pyramid of Giza (the Pyramid of Khufu).,informative,0,2025-09-09 15:03:00.976+00,,0,5,4
