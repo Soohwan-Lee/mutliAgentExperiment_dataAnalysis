@@ -453,7 +453,48 @@ print(emmeans::eff_size(emm_cf_abs_timeF, sigma = sigma(m_conf_abs),
 
 
 
-# ---------- 8-4) Agent 인식(각 척도별 LMM + Bonferroni 사후비교) ----------
+
+# ---------- 8-3) Self-report: compliance/ conversion LMM ----------
+m_comp <- lmer(
+  compliance_mean ~ pattern * task_type + SII_z + NFC_z + AIacc_z + (1 | participant_id),
+  data = post1, REML = TRUE
+)
+m_conv <- lmer(
+  conversion_mean ~ pattern * task_type + SII_z + NFC_z + AIacc_z + (1 | participant_id),
+  data = post1, REML = TRUE
+)
+
+
+### Perceived Compliance
+cat("\n=== Self-report: Compliance ===\n"); print(summary(m_comp)); print(anova(m_comp, type=3))
+
+# Post-hoc: Pattern
+emm_comp <- emmeans(m_comp, specs = "pattern", by = "task_type", data = post1)
+print(pairs(emm_comp, adjust="bonferroni"))
+print(emmeans::eff_size(emm_comp, sigma = sigma(m_comp), edf = df.residual(m_comp)))
+
+# Post-hoc: Task-type
+emm_comp <- emmeans(m_comp, specs = "task_type", by = "pattern", data = post1)
+print(pairs(emm_comp, adjust="bonferroni"))
+print(emmeans::eff_size(emm_comp, sigma = sigma(m_comp), edf = df.residual(m_comp)))
+
+
+### Perceived Conversion
+cat("\n=== Self-report: Conversion ===\n"); print(summary(m_conv)); print(anova(m_conv, type=3))
+
+# Post-hoc: Pattern
+emm_conv <- emmeans(m_conv, specs = "pattern", by = "task_type", data = post1)
+print(pairs(emm_conv, adjust="bonferroni"))
+print(emmeans::eff_size(emm_conv, sigma = sigma(m_conv), edf = df.residual(m_conv)))
+
+# Post-hoc: Task-Type
+emm_conv <- emmeans(m_conv, specs = "task_type", by = "pattern", data = post1)
+print(pairs(emm_conv, adjust="bonferroni"))
+print(emmeans::eff_size(emm_conv, sigma = sigma(m_conv), edf = df.residual(m_conv)))
+
+
+
+# ---------- 8-5) Agent 인식(각 척도별 LMM + Bonferroni 사후비교) ----------
 fit_agent_agg <- function(var) {
   # 안전장치: 컬럼과 유효 데이터 확인
   if (!var %in% names(post1)) {

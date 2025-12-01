@@ -1141,6 +1141,7 @@ fig_opinion_raw_indiv <- add_indiv_lines_to_behavior(
 fig_opinion_raw_indiv <- fig_opinion_raw_indiv +
   labs(
     x = "Time",      # 원하는 x축 라벨
+    y = "Opinion"
   )
 
 print(fig_opinion_raw_indiv)
@@ -1164,6 +1165,7 @@ fig_conf_raw_indiv <- add_indiv_lines_to_behavior(
 fig_conf_raw_indiv <- fig_conf_raw_indiv +
   labs(
     x = "Time",      # 원하는 x축 라벨
+    y = "Confidence"
   )
 
 print(fig_conf_raw_indiv)
