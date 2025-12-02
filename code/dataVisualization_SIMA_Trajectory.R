@@ -7,6 +7,9 @@
 ##     밑에 코드 블럭들을 위에서부터 순서대로 실행하면 됨.
 ## ---------------------------------------------------------
 
+out_dir <- "./Desktop/github/mutliAgentExperiment_dataAnalysis/visualization"   # 원하는 경로로 수정
+
+
 #### Always Postiive - opinion
 
 op_group <- "always_pos"   # 여기만 "always_neg" 또는 "mixed" 로 바꾸면 됨
@@ -54,25 +57,25 @@ cat("          (참가자 수:", length(unique(dat_op_raw$participant_id)), ")\n
 ##     이미 정의해 둔 최종 시각화 함수를 재사용하는 것.
 ## ---------------------------------------------------------
 
-fig_opinion_raw_optraj <- plot_behavior_pretty(
-  data = dat_op_raw,
-  dv   = "opinion",
-  model = NULL,                     # 여기서 새로 LMM 적합해서 꺾쇠 계산
-  p_adjust = p_adj_method,          # 위에서 설정한 Bonferroni
-  add_time_contrasts = TRUE,
-  time_contrast      = "baseline"   # T0 vs T1~T4
-) +
-#  ggtitle(paste0("Opinion (Raw Value) – Trajectory group: ", op_group)) +
-  labs(
-    y = "Opinion (Raw Value, -50 to 50)"   # <- 여기에 원하는 라벨 이름 넣기
-  )  +
-  theme(
-    plot.title = element_text(
-      hjust = 0.5,       # 가운데 정렬
-    )
-  )
-
-print(fig_opinion_raw_optraj)
+# fig_opinion_raw_optraj <- plot_behavior_pretty(
+#   data = dat_op_raw,
+#   dv   = "opinion",
+#   model = NULL,                     # 여기서 새로 LMM 적합해서 꺾쇠 계산
+#   p_adjust = p_adj_method,          # 위에서 설정한 Bonferroni
+#   add_time_contrasts = TRUE,
+#   time_contrast      = "baseline"   # T0 vs T1~T4
+# ) +
+# #  ggtitle(paste0("Opinion (Raw Value) – Trajectory group: ", op_group)) +
+#   labs(
+#     y = "Opinion (Raw Value, -50 to 50)"   # <- 여기에 원하는 라벨 이름 넣기
+#   )  +
+#   theme(
+#     plot.title = element_text(
+#       hjust = 0.5,       # 가운데 정렬
+#     )
+#   )
+# 
+# print(fig_opinion_raw_optraj)
 
 
 ## ---------------------------------------------------------
@@ -108,7 +111,22 @@ fig_opinion_raw_optraj_indiv <- fig_opinion_raw_optraj_indiv +
 
 print(fig_opinion_raw_optraj_indiv)
 
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "fig_opinion_raw_optraj_indiv-POS")
 
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_opinion_raw_optraj_indiv
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_opinion_raw_optraj_indiv,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
 
 
 ## ---------------------------------------------------------
@@ -133,6 +151,22 @@ fig_opinion_signed_optraj <- plot_behavior_pretty(
 
 print(fig_opinion_signed_optraj)
 
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "fig_opinion_signed_optraj-POS")
+
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_opinion_signed_optraj
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_opinion_signed_optraj,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
 
 # ## ---------------------------------------------------------
 # ## [OPINION] |ΔOpinion| (absolute delta) 플롯
@@ -204,25 +238,25 @@ cat("          (참가자 수:", length(unique(dat_op_raw$participant_id)), ")\n
 ##     이미 정의해 둔 최종 시각화 함수를 재사용하는 것.
 ## ---------------------------------------------------------
 
-fig_opinion_raw_optraj <- plot_behavior_pretty(
-  data = dat_op_raw,
-  dv   = "opinion",
-  model = NULL,                     # 여기서 새로 LMM 적합해서 꺾쇠 계산
-  p_adjust = p_adj_method,          # 위에서 설정한 Bonferroni
-  add_time_contrasts = TRUE,
-  time_contrast      = "baseline"   # T0 vs T1~T4
-) +
-  #  ggtitle(paste0("Opinion (Raw Value) – Trajectory group: ", op_group)) +
-  labs(
-    y = "Opinion (Raw Value, -50 to 50)"   # <- 여기에 원하는 라벨 이름 넣기
-  )  +
-  theme(
-    plot.title = element_text(
-      hjust = 0.5,       # 가운데 정렬
-    )
-  )
-
-print(fig_opinion_raw_optraj)
+# fig_opinion_raw_optraj <- plot_behavior_pretty(
+#   data = dat_op_raw,
+#   dv   = "opinion",
+#   model = NULL,                     # 여기서 새로 LMM 적합해서 꺾쇠 계산
+#   p_adjust = p_adj_method,          # 위에서 설정한 Bonferroni
+#   add_time_contrasts = TRUE,
+#   time_contrast      = "baseline"   # T0 vs T1~T4
+# ) +
+#   #  ggtitle(paste0("Opinion (Raw Value) – Trajectory group: ", op_group)) +
+#   labs(
+#     y = "Opinion (Raw Value, -50 to 50)"   # <- 여기에 원하는 라벨 이름 넣기
+#   )  +
+#   theme(
+#     plot.title = element_text(
+#       hjust = 0.5,       # 가운데 정렬
+#     )
+#   )
+# 
+# print(fig_opinion_raw_optraj)
 
 
 ## ---------------------------------------------------------
@@ -259,7 +293,22 @@ fig_opinion_raw_optraj_indiv <- fig_opinion_raw_optraj_indiv +
 print(fig_opinion_raw_optraj_indiv)
 
 
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "fig_opinion_raw_optraj_indiv-NEG")
 
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_opinion_raw_optraj_indiv
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_opinion_raw_optraj_indiv,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
 
 ## ---------------------------------------------------------
 ## [OPINION] ΔOpinion (signed, Tk−T0) 플롯
@@ -282,6 +331,23 @@ fig_opinion_signed_optraj <- plot_behavior_pretty(
 #ggtitle(paste0("ΔOpinion (Tk − T0) – Trajectory group: ", op_group))
 
 print(fig_opinion_signed_optraj)
+
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "fig_opinion_signed_optraj-NEG")
+
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_opinion_signed_optraj
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_opinion_signed_optraj,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
 
 
 # ## ---------------------------------------------------------
@@ -352,25 +418,25 @@ cat("          (참가자 수:", length(unique(dat_op_raw$participant_id)), ")\n
 ##     이미 정의해 둔 최종 시각화 함수를 재사용하는 것.
 ## ---------------------------------------------------------
 
-fig_opinion_raw_optraj <- plot_behavior_pretty(
-  data = dat_op_raw,
-  dv   = "opinion",
-  model = NULL,                     # 여기서 새로 LMM 적합해서 꺾쇠 계산
-  p_adjust = p_adj_method,          # 위에서 설정한 Bonferroni
-  add_time_contrasts = TRUE,
-  time_contrast      = "baseline"   # T0 vs T1~T4
-) +
-  #  ggtitle(paste0("Opinion (Raw Value) – Trajectory group: ", op_group)) +
-  labs(
-    y = "Opinion (Raw Value, -50 to 50)"   # <- 여기에 원하는 라벨 이름 넣기
-  )  +
-  theme(
-    plot.title = element_text(
-      hjust = 0.5,       # 가운데 정렬
-    )
-  )
-
-print(fig_opinion_raw_optraj)
+# fig_opinion_raw_optraj <- plot_behavior_pretty(
+#   data = dat_op_raw,
+#   dv   = "opinion",
+#   model = NULL,                     # 여기서 새로 LMM 적합해서 꺾쇠 계산
+#   p_adjust = p_adj_method,          # 위에서 설정한 Bonferroni
+#   add_time_contrasts = TRUE,
+#   time_contrast      = "baseline"   # T0 vs T1~T4
+# ) +
+#   #  ggtitle(paste0("Opinion (Raw Value) – Trajectory group: ", op_group)) +
+#   labs(
+#     y = "Opinion (Raw Value, -50 to 50)"   # <- 여기에 원하는 라벨 이름 넣기
+#   )  +
+#   theme(
+#     plot.title = element_text(
+#       hjust = 0.5,       # 가운데 정렬
+#     )
+#   )
+# 
+# print(fig_opinion_raw_optraj)
 
 
 ## ---------------------------------------------------------
@@ -407,7 +473,22 @@ fig_opinion_raw_optraj_indiv <- fig_opinion_raw_optraj_indiv +
 print(fig_opinion_raw_optraj_indiv)
 
 
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "fig_opinion_raw_optraj_indiv-MIXED")
 
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_opinion_raw_optraj_indiv
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_opinion_raw_optraj_indiv,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
 
 ## ---------------------------------------------------------
 ## [OPINION] ΔOpinion (signed, Tk−T0) 플롯
@@ -431,6 +512,22 @@ fig_opinion_signed_optraj <- plot_behavior_pretty(
 
 print(fig_opinion_signed_optraj)
 
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "fig_opinion_signed_optraj-MIXED")
+
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_opinion_signed_optraj
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_opinion_signed_optraj,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
 
 ## ---------------------------------------------------------
 ## [OPINION] |ΔOpinion| (absolute delta) 플롯
@@ -453,7 +550,22 @@ fig_opinion_abs_optraj <- plot_behavior_pretty(
 print(fig_opinion_abs_optraj)
 
 
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "fig_opinion_abs_optraj-MIXED")
 
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_opinion_abs_optraj
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_opinion_abs_optraj,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
 
 
 
@@ -560,6 +672,22 @@ fig_conf_raw_cftraj_indiv <- fig_conf_raw_cftraj_indiv +
 
 print(fig_conf_raw_cftraj_indiv)
 
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "fig_conf_raw_cftraj_indiv-POS")
+
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_conf_raw_cftraj_indiv
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_conf_raw_cftraj_indiv,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
 
 
 ## ---------------------------------------------------------
@@ -582,7 +710,22 @@ fig_conf_signed_cftraj <- plot_behavior_pretty(
 
 print(fig_conf_signed_cftraj)
 
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "fig_conf_signed_cftraj-POS")
 
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_conf_signed_cftraj
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_conf_signed_cftraj,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
 
 # ## ---------------------------------------------------------
 # ## [CONFIDENCE] |ΔConfidence| (absolute delta) 플롯
@@ -697,6 +840,22 @@ fig_conf_raw_cftraj_indiv <- fig_conf_raw_cftraj_indiv +
 
 print(fig_conf_raw_cftraj_indiv)
 
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "fig_conf_raw_cftraj_indiv-NEG")
+
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_conf_raw_cftraj_indiv
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_conf_raw_cftraj_indiv,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
 
 
 ## ---------------------------------------------------------
@@ -718,6 +877,24 @@ fig_conf_signed_cftraj <- plot_behavior_pretty(
 # ggtitle(paste0("ΔConfidence (Tk − T0) – Trajectory group: ", cf_group))
 
 print(fig_conf_signed_cftraj)
+
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "fig_conf_signed_cftraj-NEG")
+
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_conf_signed_cftraj
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_conf_signed_cftraj,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
 
 
 
@@ -833,7 +1010,22 @@ fig_conf_raw_cftraj_indiv <- fig_conf_raw_cftraj_indiv +
 
 print(fig_conf_raw_cftraj_indiv)
 
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "fig_conf_raw_cftraj_indiv-MIXED")
 
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_conf_raw_cftraj_indiv
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_conf_raw_cftraj_indiv,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
 
 ## ---------------------------------------------------------
 ## [CONFIDENCE] ΔConfidence (signed, Tk−T0) 플롯
@@ -855,6 +1047,22 @@ fig_conf_signed_cftraj <- plot_behavior_pretty(
 
 print(fig_conf_signed_cftraj)
 
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "fig_conf_signed_cftraj-MIXED")
+
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_conf_signed_cftraj
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_conf_signed_cftraj,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
 
 
 ## ---------------------------------------------------------
@@ -876,4 +1084,21 @@ fig_conf_abs_cftraj <- plot_behavior_pretty(
   #ggtitle(paste0("|ΔConfidence| – Trajectory group: ", cf_group))
 
 print(fig_conf_abs_cftraj)
+
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "fig_conf_abs_cftraj-MIXED")
+
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_conf_abs_cftraj
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_conf_abs_cftraj,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
 

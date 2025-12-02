@@ -120,6 +120,36 @@ opinion_group_by_task <- traj_opinion %>%
   ungroup()
 print(opinion_group_by_task)
 
+## === Opinion: task_type × opinion_traj_group × participant_no 목록 만들기 ===
+
+opinion_ids_long <- traj_opinion %>%
+  # participant_id -> participant_no 매핑 붙이기
+  dplyr::left_join(
+    resp_behavior %>%
+      dplyr::distinct(participant_id, participant_no),
+    by = "participant_id"
+  ) %>%
+  # 각 참가자를 한 줄씩 (task_type × opinion_traj_group × participant_no)
+  dplyr::distinct(task_type, opinion_traj_group, participant_no) %>%
+  dplyr::arrange(task_type, opinion_traj_group, participant_no)
+
+## 경로 지정 (원하는 대로 바꾸세요)
+out_dir <- "./Desktop/github/mutliAgentExperiment_dataAnalysis/refined_data/"  # 예시 경로
+if (!dir.exists(out_dir)) dir.create(out_dir, recursive = TRUE)
+
+opinion_csv_path <- file.path(out_dir, "FINAL_3Trajectory_Opinion-ParticipantNo.csv")
+
+write.csv(
+  opinion_ids_long,
+  opinion_csv_path,
+  row.names   = FALSE,
+  fileEncoding = "UTF-8"
+)
+
+cat("\n[파일 저장 완료] Opinion ID 목록 저장 위치:\n", opinion_csv_path, "\n")
+
+## --- 추가 코드 끝 ---
+
 cat("\n--- Opinion trajectory groups: pattern × task_type (trajectory 기준) ---\n")
 opinion_group_by_pattern_task <- traj_opinion %>%
   count(pattern, task_type, opinion_traj_group, name = "n_traj") %>%
@@ -152,6 +182,29 @@ conf_group_by_task <- traj_conf %>%
   ) %>%
   ungroup()
 print(conf_group_by_task)
+
+## === Confidence: task_type × conf_traj_group × participant_no 목록 만들기 ===
+conf_ids_long <- traj_conf %>%
+  dplyr::left_join(
+    resp_behavior %>%
+      dplyr::distinct(participant_id, participant_no),
+    by = "participant_id"
+  ) %>%
+  dplyr::distinct(task_type, conf_traj_group, participant_no) %>%
+  dplyr::arrange(task_type, conf_traj_group, participant_no)
+
+## 위에서 쓴 out_dir 그대로 사용하거나, 새로 지정해도 됩니다.
+conf_csv_path <- file.path(out_dir, "FINAL_3Trajectory_Confidence_ParticipantNo.csv")
+
+write.csv(
+  conf_ids_long,
+  conf_csv_path,
+  row.names   = FALSE,
+  fileEncoding = "UTF-8"
+)
+
+cat("\n[파일 저장 완료] Confidence ID 목록 저장 위치:\n", conf_csv_path, "\n")
+## --- 추가 코드 끝 ---
 
 cat("\n--- Confidence trajectory groups: pattern × task_type (trajectory 기준) ---\n")
 conf_group_by_pattern_task <- traj_conf %>%
@@ -874,67 +927,67 @@ emmeans::eff_size(
 ##       * m_op_abs
 ##       * emm_op_abs_pattern, emm_op_abs_task, emm_op_abs_time
 ## ---------------------------------------------------------
-
-cat("\n[OPINION] --- 모델 3: |ΔOpinion| (absolute delta) ---\n")
-
-m_op_abs <- fit_lmm_step_general(
-  form_op_abs_full,
-  form_op_abs_uncorr,
-  form_op_abs_int,
-  data = dat_op_delta,
-  reml = FALSE
-)
-
-summary(m_op_abs)
-anova(m_op_abs, type = 3)
-
-## Post-hoc 1: 패턴
-cat("\n[Post-hoc] |ΔOpinion| － pattern (by task_type × timeF)\n")
-
-emm_op_abs_pattern <- emmeans::emmeans(
-  m_op_abs,
-  specs = "pattern",
-  by    = c("task_type", "timeF"),
-  data  = dat_op_delta
-)
-pairs(emm_op_abs_pattern, adjust = "bonferroni")
-emmeans::eff_size(
-  emm_op_abs_pattern,
-  sigma = sigma(m_op_abs),
-  edf   = df.residual(m_op_abs)
-)
-
-## Post-hoc 2: task_type
-cat("\n[Post-hoc] |ΔOpinion| － task_type (by pattern × timeF)\n")
-
-emm_op_abs_task <- emmeans::emmeans(
-  m_op_abs,
-  specs = "task_type",
-  by    = c("pattern", "timeF"),
-  data  = dat_op_delta
-)
-pairs(emm_op_abs_task, adjust = "bonferroni")
-emmeans::eff_size(
-  emm_op_abs_task,
-  sigma = sigma(m_op_abs),
-  edf   = df.residual(m_op_abs)
-)
-
-## Post-hoc 3: timeF
-cat("\n[Post-hoc] |ΔOpinion| － timeF (by pattern × task_type)\n")
-
-emm_op_abs_time <- emmeans::emmeans(
-  m_op_abs,
-  specs = "timeF",
-  by    = c("pattern", "task_type"),
-  data  = dat_op_delta
-)
-pairs(emm_op_abs_time, adjust = "bonferroni")
-emmeans::eff_size(
-  emm_op_abs_time,
-  sigma = sigma(m_op_abs),
-  edf   = df.residual(m_op_abs)
-)
+# 
+# cat("\n[OPINION] --- 모델 3: |ΔOpinion| (absolute delta) ---\n")
+# 
+# m_op_abs <- fit_lmm_step_general(
+#   form_op_abs_full,
+#   form_op_abs_uncorr,
+#   form_op_abs_int,
+#   data = dat_op_delta,
+#   reml = FALSE
+# )
+# 
+# summary(m_op_abs)
+# anova(m_op_abs, type = 3)
+# 
+# ## Post-hoc 1: 패턴
+# cat("\n[Post-hoc] |ΔOpinion| － pattern (by task_type × timeF)\n")
+# 
+# emm_op_abs_pattern <- emmeans::emmeans(
+#   m_op_abs,
+#   specs = "pattern",
+#   by    = c("task_type", "timeF"),
+#   data  = dat_op_delta
+# )
+# pairs(emm_op_abs_pattern, adjust = "bonferroni")
+# emmeans::eff_size(
+#   emm_op_abs_pattern,
+#   sigma = sigma(m_op_abs),
+#   edf   = df.residual(m_op_abs)
+# )
+# 
+# ## Post-hoc 2: task_type
+# cat("\n[Post-hoc] |ΔOpinion| － task_type (by pattern × timeF)\n")
+# 
+# emm_op_abs_task <- emmeans::emmeans(
+#   m_op_abs,
+#   specs = "task_type",
+#   by    = c("pattern", "timeF"),
+#   data  = dat_op_delta
+# )
+# pairs(emm_op_abs_task, adjust = "bonferroni")
+# emmeans::eff_size(
+#   emm_op_abs_task,
+#   sigma = sigma(m_op_abs),
+#   edf   = df.residual(m_op_abs)
+# )
+# 
+# ## Post-hoc 3: timeF
+# cat("\n[Post-hoc] |ΔOpinion| － timeF (by pattern × task_type)\n")
+# 
+# emm_op_abs_time <- emmeans::emmeans(
+#   m_op_abs,
+#   specs = "timeF",
+#   by    = c("pattern", "task_type"),
+#   data  = dat_op_delta
+# )
+# pairs(emm_op_abs_time, adjust = "bonferroni")
+# emmeans::eff_size(
+#   emm_op_abs_time,
+#   sigma = sigma(m_op_abs),
+#   edf   = df.residual(m_op_abs)
+# )
 
 
 
@@ -1379,70 +1432,70 @@ emmeans::eff_size(
 )
 
 
-## ---------------------------------------------------------
-## [STEP 5] |ΔConfidence| (absolute delta) 모델 & Post-hoc
-## ---------------------------------------------------------
-
-cat("\n[CONFIDENCE] --- 모델 3: |ΔConfidence| (absolute delta) ---\n")
-
-m_cf_abs <- fit_lmm_step_general(
-  form_cf_abs_full,
-  form_cf_abs_uncorr,
-  form_cf_abs_int,
-  data = dat_cf_delta,
-  reml = FALSE
-)
-
-summary(m_cf_abs)
-anova(m_cf_abs, type = 3)
-
-## Post-hoc 1: 패턴
-cat("\n[Post-hoc] |ΔConfidence| － pattern (by task_type × timeF)\n")
-
-emm_cf_abs_pattern <- emmeans::emmeans(
-  m_cf_abs,
-  specs = "pattern",
-  by    = c("task_type", "timeF"),
-  data  = dat_cf_delta
-)
-pairs(emm_cf_abs_pattern, adjust = "bonferroni")
-emmeans::eff_size(
-  emm_cf_abs_pattern,
-  sigma = sigma(m_cf_abs),
-  edf   = df.residual(m_cf_abs)
-)
-
-## Post-hoc 2: task_type
-cat("\n[Post-hoc] |ΔConfidence| － task_type (by pattern × timeF)\n")
-
-emm_cf_abs_task <- emmeans::emmeans(
-  m_cf_abs,
-  specs = "task_type",
-  by    = c("pattern", "timeF"),
-  data  = dat_cf_delta
-)
-pairs(emm_cf_abs_task, adjust = "bonferroni")
-emmeans::eff_size(
-  emm_cf_abs_task,
-  sigma = sigma(m_cf_abs),
-  edf   = df.residual(m_cf_abs)
-)
-
-## Post-hoc 3: timeF
-cat("\n[Post-hoc] |ΔConfidence| － timeF (by pattern × task_type)\n")
-
-emm_cf_abs_time <- emmeans::emmeans(
-  m_cf_abs,
-  specs = "timeF",
-  by    = c("pattern", "task_type"),
-  data  = dat_cf_delta
-)
-pairs(emm_cf_abs_time, adjust = "bonferroni")
-emmeans::eff_size(
-  emm_cf_abs_time,
-  sigma = sigma(m_cf_abs),
-  edf   = df.residual(m_cf_abs)
-)
+# ## ---------------------------------------------------------
+# ## [STEP 5] |ΔConfidence| (absolute delta) 모델 & Post-hoc
+# ## ---------------------------------------------------------
+# 
+# cat("\n[CONFIDENCE] --- 모델 3: |ΔConfidence| (absolute delta) ---\n")
+# 
+# m_cf_abs <- fit_lmm_step_general(
+#   form_cf_abs_full,
+#   form_cf_abs_uncorr,
+#   form_cf_abs_int,
+#   data = dat_cf_delta,
+#   reml = FALSE
+# )
+# 
+# summary(m_cf_abs)
+# anova(m_cf_abs, type = 3)
+# 
+# ## Post-hoc 1: 패턴
+# cat("\n[Post-hoc] |ΔConfidence| － pattern (by task_type × timeF)\n")
+# 
+# emm_cf_abs_pattern <- emmeans::emmeans(
+#   m_cf_abs,
+#   specs = "pattern",
+#   by    = c("task_type", "timeF"),
+#   data  = dat_cf_delta
+# )
+# pairs(emm_cf_abs_pattern, adjust = "bonferroni")
+# emmeans::eff_size(
+#   emm_cf_abs_pattern,
+#   sigma = sigma(m_cf_abs),
+#   edf   = df.residual(m_cf_abs)
+# )
+# 
+# ## Post-hoc 2: task_type
+# cat("\n[Post-hoc] |ΔConfidence| － task_type (by pattern × timeF)\n")
+# 
+# emm_cf_abs_task <- emmeans::emmeans(
+#   m_cf_abs,
+#   specs = "task_type",
+#   by    = c("pattern", "timeF"),
+#   data  = dat_cf_delta
+# )
+# pairs(emm_cf_abs_task, adjust = "bonferroni")
+# emmeans::eff_size(
+#   emm_cf_abs_task,
+#   sigma = sigma(m_cf_abs),
+#   edf   = df.residual(m_cf_abs)
+# )
+# 
+# ## Post-hoc 3: timeF
+# cat("\n[Post-hoc] |ΔConfidence| － timeF (by pattern × task_type)\n")
+# 
+# emm_cf_abs_time <- emmeans::emmeans(
+#   m_cf_abs,
+#   specs = "timeF",
+#   by    = c("pattern", "task_type"),
+#   data  = dat_cf_delta
+# )
+# pairs(emm_cf_abs_time, adjust = "bonferroni")
+# emmeans::eff_size(
+#   emm_cf_abs_time,
+#   sigma = sigma(m_cf_abs),
+#   edf   = df.residual(m_cf_abs)
+# )
 
 
 
@@ -1620,73 +1673,73 @@ emmeans::eff_size(
   edf   = df.residual(m_cf_signed)
 )
 
-
-## ---------------------------------------------------------
-## [STEP 5] |ΔConfidence| (absolute delta) 모델 & Post-hoc
-## ---------------------------------------------------------
-
-cat("\n[CONFIDENCE] --- 모델 3: |ΔConfidence| (absolute delta) ---\n")
-
-m_cf_abs <- fit_lmm_step_general(
-  form_cf_abs_full,
-  form_cf_abs_uncorr,
-  form_cf_abs_int,
-  data = dat_cf_delta,
-  reml = FALSE
-)
-
-summary(m_cf_abs)
-anova(m_cf_abs, type = 3)
-
-## Post-hoc 1: 패턴
-cat("\n[Post-hoc] |ΔConfidence| － pattern (by task_type × timeF)\n")
-
-emm_cf_abs_pattern <- emmeans::emmeans(
-  m_cf_abs,
-  specs = "pattern",
-  by    = c("task_type", "timeF"),
-  data  = dat_cf_delta
-)
-pairs(emm_cf_abs_pattern, adjust = "bonferroni")
-emmeans::eff_size(
-  emm_cf_abs_pattern,
-  sigma = sigma(m_cf_abs),
-  edf   = df.residual(m_cf_abs)
-)
-
-## Post-hoc 2: task_type
-cat("\n[Post-hoc] |ΔConfidence| － task_type (by pattern × timeF)\n")
-
-emm_cf_abs_task <- emmeans::emmeans(
-  m_cf_abs,
-  specs = "task_type",
-  by    = c("pattern", "timeF"),
-  data  = dat_cf_delta
-)
-pairs(emm_cf_abs_task, adjust = "bonferroni")
-emmeans::eff_size(
-  emm_cf_abs_task,
-  sigma = sigma(m_cf_abs),
-  edf   = df.residual(m_cf_abs)
-)
-
-## Post-hoc 3: timeF
-cat("\n[Post-hoc] |ΔConfidence| － timeF (by pattern × task_type)\n")
-
-emm_cf_abs_time <- emmeans::emmeans(
-  m_cf_abs,
-  specs = "timeF",
-  by    = c("pattern", "task_type"),
-  data  = dat_cf_delta
-)
-pairs(emm_cf_abs_time, adjust = "bonferroni")
-emmeans::eff_size(
-  emm_cf_abs_time,
-  sigma = sigma(m_cf_abs),
-  edf   = df.residual(m_cf_abs)
-)
-
-
+# 
+# ## ---------------------------------------------------------
+# ## [STEP 5] |ΔConfidence| (absolute delta) 모델 & Post-hoc
+# ## ---------------------------------------------------------
+# 
+# cat("\n[CONFIDENCE] --- 모델 3: |ΔConfidence| (absolute delta) ---\n")
+# 
+# m_cf_abs <- fit_lmm_step_general(
+#   form_cf_abs_full,
+#   form_cf_abs_uncorr,
+#   form_cf_abs_int,
+#   data = dat_cf_delta,
+#   reml = FALSE
+# )
+# 
+# summary(m_cf_abs)
+# anova(m_cf_abs, type = 3)
+# 
+# ## Post-hoc 1: 패턴
+# cat("\n[Post-hoc] |ΔConfidence| － pattern (by task_type × timeF)\n")
+# 
+# emm_cf_abs_pattern <- emmeans::emmeans(
+#   m_cf_abs,
+#   specs = "pattern",
+#   by    = c("task_type", "timeF"),
+#   data  = dat_cf_delta
+# )
+# pairs(emm_cf_abs_pattern, adjust = "bonferroni")
+# emmeans::eff_size(
+#   emm_cf_abs_pattern,
+#   sigma = sigma(m_cf_abs),
+#   edf   = df.residual(m_cf_abs)
+# )
+# 
+# ## Post-hoc 2: task_type
+# cat("\n[Post-hoc] |ΔConfidence| － task_type (by pattern × timeF)\n")
+# 
+# emm_cf_abs_task <- emmeans::emmeans(
+#   m_cf_abs,
+#   specs = "task_type",
+#   by    = c("pattern", "timeF"),
+#   data  = dat_cf_delta
+# )
+# pairs(emm_cf_abs_task, adjust = "bonferroni")
+# emmeans::eff_size(
+#   emm_cf_abs_task,
+#   sigma = sigma(m_cf_abs),
+#   edf   = df.residual(m_cf_abs)
+# )
+# 
+# ## Post-hoc 3: timeF
+# cat("\n[Post-hoc] |ΔConfidence| － timeF (by pattern × task_type)\n")
+# 
+# emm_cf_abs_time <- emmeans::emmeans(
+#   m_cf_abs,
+#   specs = "timeF",
+#   by    = c("pattern", "task_type"),
+#   data  = dat_cf_delta
+# )
+# pairs(emm_cf_abs_time, adjust = "bonferroni")
+# emmeans::eff_size(
+#   emm_cf_abs_time,
+#   sigma = sigma(m_cf_abs),
+#   edf   = df.residual(m_cf_abs)
+# )
+# 
+# 
 
 
 

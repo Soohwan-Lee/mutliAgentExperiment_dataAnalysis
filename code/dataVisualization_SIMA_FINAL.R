@@ -1,6 +1,9 @@
 #### 최종 시각화 코드: T0 기준 sign-flip + T0~T4 raw / Δ / |Δ|에 대한 Bonferroni 꺾쇠 표시
 #### (빈 비교 결과에서도 에러 없이 동작하도록 개선한 버전)
 
+out_dir <- "./Desktop/github/mutliAgentExperiment_dataAnalysis/visualization-overall"   # 원하는 경로로 수정
+
+
 suppressPackageStartupMessages({
   library(tidyverse)
   library(purrr)
@@ -1103,22 +1106,22 @@ add_indiv_lines_to_behavior <- function(
 # resp_behavior: T0~T4 raw (sign-flip), resp_delta: Δ / |Δ|
 # -------------------------------------------------
 
-## 1) Raw T0~T4 (Opinion / Confidence)
-fig_opinion_raw <- plot_behavior_pretty(
-  data = resp_behavior, dv = "opinion",
-  model = if (exists("m_opinion_raw")) m_opinion_raw else NULL,
-  p_adjust = p_adj_method,
-  add_time_contrasts = TRUE, time_contrast = "baseline"  # T0 vs T1~T4
-)
-print(fig_opinion_raw)
-
-fig_conf_raw <- plot_behavior_pretty(
-  data = resp_behavior, dv = "confidence",
-  model = if (exists("m_conf_raw")) m_conf_raw else NULL,
-  p_adjust = p_adj_method,
-  add_time_contrasts = TRUE, time_contrast = "baseline"
-)
-print(fig_conf_raw)
+# ## 1) Raw T0~T4 (Opinion / Confidence)
+# fig_opinion_raw <- plot_behavior_pretty(
+#   data = resp_behavior, dv = "opinion",
+#   model = if (exists("m_opinion_raw")) m_opinion_raw else NULL,
+#   p_adjust = p_adj_method,
+#   add_time_contrasts = TRUE, time_contrast = "baseline"  # T0 vs T1~T4
+# )
+# print(fig_opinion_raw)
+# 
+# fig_conf_raw <- plot_behavior_pretty(
+#   data = resp_behavior, dv = "confidence",
+#   model = if (exists("m_conf_raw")) m_conf_raw else NULL,
+#   p_adjust = p_adj_method,
+#   add_time_contrasts = TRUE, time_contrast = "baseline"
+# )
+# print(fig_conf_raw)
 
 
 # 1-1) 참가자별 꺾은선 추가 -> RAW Data 시각화는 이거 사용
@@ -1141,10 +1144,27 @@ fig_opinion_raw_indiv <- add_indiv_lines_to_behavior(
 fig_opinion_raw_indiv <- fig_opinion_raw_indiv +
   labs(
     x = "Time",      # 원하는 x축 라벨
-    y = "Opinion"
+    y = "Opinion (Raw Value, -50 to 50)"
   )
 
 print(fig_opinion_raw_indiv)
+
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "opinion_raw")
+
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_opinion_raw_indiv
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_opinion_raw_indiv,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
 
 
 ## Confidence: 박스플롯 + 참가자별 꺾은선
@@ -1165,12 +1185,27 @@ fig_conf_raw_indiv <- add_indiv_lines_to_behavior(
 fig_conf_raw_indiv <- fig_conf_raw_indiv +
   labs(
     x = "Time",      # 원하는 x축 라벨
-    y = "Confidence"
+    y = "Confidence (Raw Value, 0 to 100)"
   )
 
 print(fig_conf_raw_indiv)
 
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "confidence_raw")
 
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_conf_raw_indiv
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_conf_raw_indiv,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
 
 
 
@@ -1182,8 +1217,31 @@ fig_opinion_abs <- plot_behavior_pretty(
   model = if (exists("m_opinion_abs")) m_opinion_abs else NULL,
   p_adjust = p_adj_method,
   add_time_contrasts = TRUE, time_contrast = "baseline"  # baseline = T1 (Δ는 이미 T0 차)
-)
+) +
+  labs(
+    x = "Time",      # 원하는 x축 라벨
+    y = "|Opinion Delta| (Tk-T0)"
+  )
+
 print(fig_opinion_abs)
+
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "opinion_abs")
+
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_opinion_abs
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_opinion_abs,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
 
 # Opinion Delta - Signed
 fig_opinion_signed <- plot_behavior_pretty(
@@ -1191,8 +1249,30 @@ fig_opinion_signed <- plot_behavior_pretty(
   model = if (exists("m_opinion_signed")) m_opinion_signed else NULL,
   p_adjust = p_adj_method,
   add_time_contrasts = TRUE, time_contrast = "baseline"
-)
+) +
+  labs(
+    x = "Time",      # 원하는 x축 라벨
+    y = "Opinion Delta (Tk-T0)"
+  )
 print(fig_opinion_signed)
+
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "opinion_signed")
+
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_opinion_signed
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_opinion_signed,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
 
 # Confidence Delta - Abs
 fig_conf_abs <- plot_behavior_pretty(
@@ -1200,8 +1280,30 @@ fig_conf_abs <- plot_behavior_pretty(
   model = if (exists("m_conf_abs")) m_conf_abs else NULL,
   p_adjust = p_adj_method,
   add_time_contrasts = TRUE, time_contrast = "baseline"
-)
+) +
+  labs(
+    x = "Time",      # 원하는 x축 라벨
+    y = "|Confidence Delta| (Tk-T0)"
+  )
 print(fig_conf_abs)
+
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "confidence_abs")
+
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_conf_abs
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_conf_abs,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
 
 # Confidence Delta - Signed
 fig_conf_signed <- plot_behavior_pretty(
@@ -1209,8 +1311,29 @@ fig_conf_signed <- plot_behavior_pretty(
   model = if (exists("m_conf_signed")) m_conf_signed else NULL,
   p_adjust = p_adj_method,
   add_time_contrasts = TRUE, time_contrast = "baseline"
-)
+) +
+  labs(
+    x = "Time",      # 원하는 x축 라벨
+    y = "Confidence Delta (Tk-T0)"
+  )
 print(fig_conf_signed)
+
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "confidence_signed")
+
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_conf_signed
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_conf_signed,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
 
 
 ## 3) Behavioral companion: between-task (N vs I) within each pattern/time
@@ -1218,29 +1341,116 @@ fig_opinion_abs_taskdiff <- plot_behavior_taskdiff_pretty(
   data = resp_delta, dv = "opinion_delta_abs",
   model = if (exists("m_opinion_abs")) m_opinion_abs else NULL,
   p_adjust = p_adj_method
-)
+) +
+  labs(
+    y = "|Opinion Delta| (Tk-T0)"
+  )
 print(fig_opinion_abs_taskdiff)
+
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "opinion_abs_taskDiff")
+
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_opinion_abs_taskdiff
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_opinion_abs_taskdiff,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+
 
 fig_opinion_signed_taskdiff <- plot_behavior_taskdiff_pretty(
   data = resp_delta, dv = "opinion_delta",
   model = if (exists("m_opinion_signed")) m_opinion_signed else NULL,
   p_adjust = p_adj_method
-)
+)  +
+  labs(
+    y = "Opinion Delta (Tk-T0)"
+  )
 print(fig_opinion_signed_taskdiff)
+
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "opinion_signed_taskDiff")
+
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_opinion_signed_taskdiff
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_opinion_signed_taskdiff,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+
+
 
 fig_conf_abs_taskdiff <- plot_behavior_taskdiff_pretty(
   data = resp_delta, dv = "conf_delta_abs",
   model = if (exists("m_conf_abs")) m_conf_abs else NULL,
   p_adjust = p_adj_method
-)
+)  +
+  labs(
+    y = "|Confidence Delta| (Tk-T0)"
+  )
 print(fig_conf_abs_taskdiff)
+
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "confidence_abs_taskDiff")
+
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_conf_abs_taskdiff
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_conf_abs_taskdiff,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
 
 fig_conf_signed_taskdiff <- plot_behavior_taskdiff_pretty(
   data = resp_delta, dv = "conf_delta",
   model = if (exists("m_conf_signed")) m_conf_signed else NULL,
   p_adjust = p_adj_method
-)
+)  +
+  labs(
+    y = "Confidence Delta (Tk-T0)"
+  )
 print(fig_conf_signed_taskdiff)
+
+# 4) 파일명 베이스(필요하면 cf_group 등으로 구분 가능)
+file_base <- file.path(out_dir, "confidence_signed_taskDiff")
+
+# 5) 현재 플롯 창 크기/비율 그대로 저장
+ggsave(
+  filename = paste0(file_base, ".pdf"),
+  plot     = fig_conf_signed_taskdiff
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
+ggsave(
+  filename = paste0(file_base, ".png"),
+  plot     = fig_conf_signed_taskdiff,
+  dpi      = 300   # 논문용이면 300~600 추천
+  # width/height 미지정 → 현재 디바이스 크기 사용
+)
+
 
 ## 4) Self-reported: includes pattern-wise (black) and task-wise (colored) brackets
 fig_comp <- plot_self_pretty(
