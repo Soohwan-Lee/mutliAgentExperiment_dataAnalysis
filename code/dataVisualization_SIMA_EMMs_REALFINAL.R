@@ -1463,7 +1463,7 @@ fig_opinion_raw_indiv <- fig_opinion_raw_indiv +
   labs(
     x = "Time",
     y = "Opinion (Raw Value, -50 to 50)"
-  )
+  )+ coord_cartesian(ylim = c(-50, 52))  # y축을 0~100으로 고정
 
 print(fig_opinion_raw_indiv)
 
@@ -1505,7 +1505,7 @@ fig_conf_raw_indiv <- fig_conf_raw_indiv +
   labs(
     x = "Time",
     y = "Confidence (Raw Value, 0 to 100)"
-  )
+  )  + coord_cartesian(ylim = c(0, 102))  # y축을 0~100으로 고정
 
 print(fig_conf_raw_indiv)
 
@@ -2272,5 +2272,5 @@ ggsave(
 # 
 # 
 
- ㅂ
+
 

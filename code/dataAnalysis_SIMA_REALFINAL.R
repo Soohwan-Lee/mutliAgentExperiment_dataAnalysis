@@ -11,8 +11,8 @@ suppressPackageStartupMessages({
   library(effectsize)
 })
 
-# Type-III ANOVA + treatment contrasts
-options(contrasts = c("contr.treatment", "contr.poly"))
+# Type-III ANOVA + treatment contrasts or sum contrasts
+options(contrasts = c("contr.sum", "contr.poly"))
 
 # -------------------------------------------------------
 # 0) 경로
@@ -609,7 +609,7 @@ m_conv <- lmer(
 
 cat("\n=== Self-report: Compliance ===\n")
 print(summary(m_comp)); 
-print(anova(m_comp, type = 3))
+print(anova(m_comp, type = 2))
 
 emm_comp_table <- emmeans(m_comp, ~ pattern * task_type)
 print(emm_comp_table)
@@ -683,11 +683,6 @@ print(emmeans::eff_size(
 ))
 
 
-
-
-
-
-
 # ---------- 8-5) Agent 인식(각 척도별 LMM + Bonferroni 사후비교) ----------
 fit_agent_agg <- function(var) {
   if (!var %in% names(post1)) {
@@ -703,20 +698,47 @@ fit_agent_agg <- function(var) {
       " ~ pattern * task_type + SII_z + NFC_z + AIacc_z + (1 | participant_id)"
     )
   )
+  
   res <- try({
-    m   <- lmer(frm, data = post1, REML = TRUE)
-    emm <- emmeans(m, specs = "pattern", by = "task_type", data = post1)
+    m <- lmer(frm, data = post1, REML = TRUE)
+    
+    # (1) pattern 기준: task_type 별 패턴 비교
+    emm_pattern <- emmeans(m, specs = "pattern", by = "task_type", data = post1)
+    pairs_pattern <- pairs(emm_pattern, adjust = "bonferroni")
+    eff_pattern <- emmeans::eff_size(
+      emm_pattern,
+      sigma = sigma(m),
+      edf   = df.residual(m)
+    )
+    
+    # (2) task_type 기준: pattern 별 과업유형 비교
+    emm_task_type <- emmeans(m, specs = "task_type", by = "pattern", data = post1)
+    pairs_task_type <- pairs(emm_task_type, adjust = "bonferroni")
+    eff_task_type <- emmeans::eff_size(
+      emm_task_type,
+      sigma = sigma(m),
+      edf   = df.residual(m)
+    )
+    
     list(
       var   = var,
       model = m,
-      anova = anova(m, type = 3),
-      emm   = emm,  # 조건별 추정 평균 (논문용)
-      pairs = pairs(emm, adjust = "bonferroni"),
-      eff   = emmeans::eff_size(
-        emm,
-        sigma = sigma(m),
-        edf   = df.residual(m)
-      )
+      anova = anova(m, type = 2),
+      
+      # pattern-by 결과
+      emm_pattern   = emm_pattern,
+      pairs_pattern = pairs_pattern,
+      eff_pattern   = eff_pattern,
+      
+      # task_type-by 결과
+      emm_task_type   = emm_task_type,
+      pairs_task_type = pairs_task_type,
+      eff_task_type   = eff_task_type,
+      
+      # (기존 이름도 유지해두고 싶다면 아래 3줄을 추가)
+      emm   = emm_pattern,
+      pairs = pairs_pattern,
+      eff   = eff_pattern
     )
   }, silent = TRUE)
   
@@ -738,9 +760,83 @@ for (res in agent_models_agg) {
   }
   print(summary(res$model))
   print(res$anova)
-  print(res$emm)    # 조건별 추정 평균
-  print(res$pairs)  # Bonferroni 보정 사후비교
-  print(res$eff)
+  
+  # (1) pattern 기준: task_type 별
+  cat("\n--- EMMs by pattern (within task_type) ---\n")
+  print(res$emm_pattern)        # 조건별 추정 평균
+  cat("\nBonferroni (pattern within task_type):\n")
+  print(res$pairs_pattern)      # Bonferroni 보정 사후비교
+  cat("\nEffect sizes (pattern within task_type):\n")
+  print(res$eff_pattern)
+  
+  # (2) task_type 기준: pattern 별
+  cat("\n--- EMMs by task_type (within pattern) ---\n")
+  print(res$emm_task_type)      # 조건별 추정 평균
+  cat("\nBonferroni (task_type within pattern):\n")
+  print(res$pairs_task_type)    # Bonferroni 보정 사후비교
+  cat("\nEffect sizes (task_type within pattern):\n")
+  print(res$eff_task_type)
 }
 
 cat("\nAll analyses completed.\n")
+
+
+
+
+
+# # ---------- 8-5) Agent 인식(각 척도별 LMM + Bonferroni 사후비교) ----------
+# fit_agent_agg <- function(var) {
+#   if (!var %in% names(post1)) {
+#     return(list(var = var, error = sprintf("Column '%s' not found in post1", var)))
+#   }
+#   if (all(is.na(post1[[var]]))) {
+#     return(list(var = var, error = sprintf("Column '%s' is all NA; cannot fit model", var)))
+#   }
+#   
+#   frm <- as.formula(
+#     paste0(
+#       var,
+#       " ~ pattern * task_type + SII_z + NFC_z + AIacc_z + (1 | participant_id)"
+#     )
+#   )
+#   res <- try({
+#     m   <- lmer(frm, data = post1, REML = TRUE)
+#     emm <- emmeans(m, specs = "pattern", by = "task_type", data = post1)
+#     list(
+#       var   = var,
+#       model = m,
+#       anova = anova(m, type = 3),
+#       emm   = emm,  # 조건별 추정 평균 (논문용)
+#       pairs = pairs(emm, adjust = "bonferroni"),
+#       eff   = emmeans::eff_size(
+#         emm,
+#         sigma = sigma(m),
+#         edf   = df.residual(m)
+#       )
+#     )
+#   }, silent = TRUE)
+#   
+#   if (inherits(res, "try-error")) {
+#     return(list(var = var, error = as.character(res)))
+#   } else {
+#     return(res)
+#   }
+# }
+# 
+# agent_models_agg <- lapply(paste0("agent_", agent_dims), fit_agent_agg)
+# 
+# # 결과 출력
+# for (res in agent_models_agg) {
+#   cat("\n=== Agent perception: ", res$var, " ===\n", sep = "")
+#   if (!is.null(res$error)) {
+#     cat("Error: ", res$error, "\n", sep = "")
+#     next
+#   }
+#   print(summary(res$model))
+#   print(res$anova)
+#   print(res$emm)    # 조건별 추정 평균
+#   print(res$pairs)  # Bonferroni 보정 사후비교
+#   print(res$eff)
+# }
+# 
+# cat("\nAll analyses completed.\n")
