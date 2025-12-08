@@ -1,0 +1,16 @@
+id,participant_id,session_key,response_index,opinion,confidence,rt_ms,created_at,condition_id,participant_no,condition_type,task_order,informative_task_index,normative_task_index
+661319b2-11ed-4a67-b9e3-18961150e8d8,c724fed7-5bb1-4e16-972d-c7dbac7ba34e,test,0,25,86,52555,2025-09-09 14:47:11.299527+00,2.0,2,minority,normativeFirst,1,0
+20773850-d23d-4f92-8549-d7440ccae998,c724fed7-5bb1-4e16-972d-c7dbac7ba34e,test,1,42,92,26246,2025-09-09 14:48:17.020887+00,2.0,2,minority,normativeFirst,1,0
+344453ee-953d-41e4-bc80-b40eb3eefabc,c724fed7-5bb1-4e16-972d-c7dbac7ba34e,test,2,43,94,31391,2025-09-09 14:50:14.1734+00,2.0,2,minority,normativeFirst,1,0
+043f0ca5-2776-48ae-970e-11f55999e39c,c724fed7-5bb1-4e16-972d-c7dbac7ba34e,test,3,44,94,34681,2025-09-09 14:52:49.388942+00,2.0,2,minority,normativeFirst,1,0
+b35c2169-2337-4ee6-9a20-0228ace853d1,c724fed7-5bb1-4e16-972d-c7dbac7ba34e,test,4,44,95,21705,2025-09-09 14:54:13.274704+00,2.0,2,minority,normativeFirst,1,0
+9192efb7-b6b7-4b5a-afd5-266e5a58e13b,871d350b-2da5-4cf0-8a7a-c2dc88bb4803,test,0,-20,74,72383,2025-09-09 14:49:32.025848+00,3.0,3,minorityDiffusion,informativeFirst,2,1
+c54162ca-00e4-486b-a760-7b2111e3211f,871d350b-2da5-4cf0-8a7a-c2dc88bb4803,test,1,-30,80,36651,2025-09-09 14:51:12.223132+00,3.0,3,minorityDiffusion,informativeFirst,2,1
+a21aa305-8e2d-412b-b883-d94b7f5f33f9,871d350b-2da5-4cf0-8a7a-c2dc88bb4803,test,2,-30,73,43497,2025-09-09 14:54:08.908386+00,3.0,3,minorityDiffusion,informativeFirst,2,1
+a452b0f9-60a3-488c-af2a-c074e8de2f0b,871d350b-2da5-4cf0-8a7a-c2dc88bb4803,test,3,-20,68,48549,2025-09-09 14:56:56.630131+00,3.0,3,minorityDiffusion,informativeFirst,2,1
+258ee304-c7c9-4168-a370-716c3cea3701,871d350b-2da5-4cf0-8a7a-c2dc88bb4803,test,4,-10,52,54608,2025-09-09 14:59:55.87255+00,3.0,3,minorityDiffusion,informativeFirst,2,1
+7c9d863c-436b-4274-a304-8c83f8cdde48,6e51d200-d884-4119-8396-68494a7ddf3f,test,0,25,94,34132,2025-09-09 17:27:45.305486+00,79.0,79,majority,informativeFirst,0,3
+b0ddd2ec-4b42-47a6-a349-fc5d9309b422,6e51d200-d884-4119-8396-68494a7ddf3f,test,1,27,95,35200,2025-09-09 17:28:52.995791+00,79.0,79,majority,informativeFirst,0,3
+bbbb447f-5482-4238-94b3-877c8919702b,6e51d200-d884-4119-8396-68494a7ddf3f,test,2,28,95,19052,2025-09-09 17:29:50.245381+00,79.0,79,majority,informativeFirst,0,3
+033eb516-48fc-40df-b0fd-79b8be5798e5,6e51d200-d884-4119-8396-68494a7ddf3f,test,3,29,94,22734,2025-09-09 17:31:03.628802+00,79.0,79,majority,informativeFirst,0,3
+8bc5f24a-3914-4978-80aa-92b54525d9aa,6e51d200-d884-4119-8396-68494a7ddf3f,test,4,31,93,19141,2025-09-09 17:32:13.751899+00,79.0,79,majority,informativeFirst,0,3
