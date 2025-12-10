@@ -17,7 +17,9 @@ options(contrasts = c("contr.sum", "contr.poly"))
 # -------------------------------------------------------
 # 0) 경로
 # -------------------------------------------------------
-base_dir <- "./Desktop/github/mutliAgentExperiment_dataAnalysis/refined_data/"
+# base_dir <- "./Desktop/github/mutliAgentExperiment_dataAnalysis/refined_data/"   # MAC
+base_dir <- "C:\\Users\\USER\\Desktop\\github\\mutliAgentExperiment_dataAnalysis\\refined_data\\"   # Window
+
 
 # -------------------------------------------------------
 # 1) 데이터 로드
